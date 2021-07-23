@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A_1" xml:space="preserve">
+    <value>Vieles, aber nicht alles, aber eigentlich für jeden Unfug!</value>
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt; Jason&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Nick Name:&lt;/b&gt; DarkSide_Wolf | DarkSideWolf_JT&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Alter:&lt;/b&gt; 22 (20.09.1998)&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Geschlecht:&lt;/b&gt; männlich (schwul)&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Größe:&lt;/b&gt; 1,80m&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Gewicht:&lt;/b&gt; -&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Beruf:&lt;/b&gt; Informatiker&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Hobbys:&lt;/b&gt; Freunde treffen, feiern, klettern, schwimmen, zocken, programmieren&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Art:&lt;/b&gt; nett, lustig, zurückhaltend, gefühlsvoll, hilfsbereit, anhänglich&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; enttäuscht, werletzt, alleine&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Aktivitäten:&lt;/b&gt; Freunde treffen, feiern, zocken, programmieren, musik hören, Auto fahren&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Filme🎞:&lt;/b&gt; American Pie, Matrix, Star Wars, Hangover, John Wick&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Serien:&lt;/b&gt; South Park, Simpsons&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Lieder🎵:&lt;/b&gt; &lt;a href="https://www.youtube.com/playlist?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt;LGBT&lt;/a&gt;&lt;a href="https://youtu.be/ISwYaZGhLAY?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt; -&gt; Love Generation&lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Spiel🎮:&lt;/b&gt; The Last of Us&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Tier:&lt;/b&gt; Wolf🐺 (Loyal)&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Farben🎨:&lt;/b&gt; 🔴🟠🟡🟢🔵🟣 &lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Essen:&lt;/b&gt; Pizza🍕, Salat🥗, Früchte Kuchen🍰, Eis🍨, Früchte Teller🍓&lt;/p&gt;
+            &lt;p&gt;&lt;b&gt;Lieblings Getränk:&lt;/b&gt; Latte Macchiato☕, Spezi, Sex on the Beach🍹&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;p&gt;&lt;b&gt;Weiteres:&lt;/b&gt; Trau dich und frag einfach 😉&lt;/p&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;</value>
+  </data>
+  <data name="MyOuting" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;Mein Outing&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;p class="OutingContent"&gt;
+                Ich habe mich am 29.6.2021 bei meiner Mutter geoutet, wie man es so schön nennt (im Alter von 22J.). 
+                Ich hatte schon seit ca. 5 Jahren vor es ihr auf irgend einem Weg zu sagen, doch ich wollte auf den richtigen Zeitpunkt warten. 
+                Eine Idee, oder sagen wir mal einen Ansatz wie ich es ihr sage, hatte ich ebenfalls nicht. 
+                Da ich mir aber eingestehen musste, dass der richtige Zeitpunkt nie kommen wird, habe ich mich dazu entschlossen, 
+                es ihr zu sagen wenn ich mit meiner Ausbildung fertig bin. 
+                Am 29. war meine mündliche Abschlussprüfung, welche ich erfolgreich bestanden habe. 
+                Auf dem weg zu meinem Auto, nach der Prüfung war ich überglücklich und traurig zugleich und ich musste weinen, 
+                da ich wusste, dass ich mein Ziel, welches ich mir seit 5 Jahren gesetzt habe nun erreicht habe. 
+                Diese 5 Jahre waren für mich eine beschissene Zeit, welche aber auch immer 
+                mal wieder schöne Momente zu bieten hatte. 
+                Meinen Traumberuf, kann mir nun also keiner mehr wegnehmen, doch leider wurde ich nicht von der Firma übernommen 
+                und die Mitteilung, dass ich nicht übernommen werde kahm etwas kurzfristig.
+                Ich wusste am nächsten Tag, muss ich von vielen netten Kollegen abschied nehmen und zugleich habe ich erstmal 
+                keine Firma wo ich arbeiten kann. All dies brachte mich zum weinen aber ich wollte zugleich einen kleinen Wandel in meinem 
+                Leben haben und nicht jeden Tag nur schlecht gelaunt sein. 
+                Ich wollte auch nicht mehr jeden Tag etwas verstecken müssen oder geheim halten. 
+                Und mein Entschluss es ihr mit meiner bestandenen Ausbildung mitzuteilen stand schon lange fest. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+                Zuhause angekommen und nachdem ich ihr meine Ergebnisse und alles mitteilte, setzte ich mich an meinen PC und 
+                versuchte ihr mein Geständniss zu schreiben. Dieser Weg hatte zwei Gründe, zum einen konnte ich es ihr einfach nicht sagen. 
+                Zum anderen habe ich und meine Mutter ein sehr enges und gutes Verhältniss seit eh und jeh.
+                Wir sagen uns eigentlich immer alles und haben keine Geheimnisse. 
+                Immer wenn einer von uns dem Anderen etwas sehr wichtiges mitzuteilen hatte, geschah
+                dies auf schriftlichem Wege. Somit war dies ein weiterer Grund, warum ich es auf diesem Wege gemacht habe. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+                Es hat lange gedauert eine kleine ToDo Liste auf die Reihe zu stellen, was ich ihr alles schreiben möchte. 
+                Es hat lange gedauert für mich Fragen zu finden, welche sich eine Mutter nach dieser Nachricht stellen könnte. 
+                Als ich grob alles beisammen hatte habe ich nach einer kurzen netten Einleitung ihr versucht auf schonende,
+                aber direkte Weiße klar zu machen, dass ich halt nun mal nicht so ticke wie sie es gerne hätte und nunmal schwul bin. 
+                Da ich mir denken konnte, dass die Frage seit wann kommt, da ich doch seither auf Mädchen stand, 
+                habe ich diese Frage vorab beantwortet. Ich habe ihr gesagt, dass dies so nicht ganz stimmt und wenn sie mich gefragt hat, 
+                welches mädchen ich hübsch finde, oder auf welches Mädchen ich stehe,
+                habe ich halt ein gutaussehendes Mädchen genannt.
+                Angefügt habe ich danach, dass ich seit der ersten Klasse Jungs süß finde und eher mal einem Jungen hinterher 
+                gesehen habe, als einem Mädchen, geschweigeden habe ich mal ein Mädchen mit nach hause gebracht.
+                Auf die Frage wiso ich es ihr erst jetzt sage, habe ich vorab ebenfalls eine Antwort gegeben. 
+                Ich habe ihr in meinem Schreiben geschrieben, dass ich es ihr bereits 
+                sehr oft sagen wollte und es versucht habe, sie es jedoch oft an meinen Aussagen, Bemerkungen, Kommentare,
+                hätte merken können, oder an den Liedern die ich immer höre, doch meine Musik mag sie ja nicht. 
+                Ein Hauptaspekt, weshalb ich es auch lange nicht gesagt habe war, da ich für mich wusste wie ich ticke und was ich möchte. 
+                Ich hatte damit nie ein Problem oder sonstiges, doch ich wusste oder weiß wie meine Familie darüber denkt. 
+                Auch wenn meine Mutter seit vielen Jahren eine Freundschaft mit einem Transsexuellen man führt, 
+                akzeptiert sie ihn, seine Art, etc., doch als wir alleine waren und sie mit mir die Unterhaltung bezüglich dieser Person hatte, 
+                wurde mir schnell klar, dass es nicht ganz einfach werden wird. Die letzten Monate vor meinem Outing, 
+                haben dies nochmal deutlicher gemacht, doch sie hatte da schon 
+                einen starken verdacht. Ich musste mir Fragen und Aussagen anhören wie: 
+                Ist das eine Schwulenfrisur? Hoffentlich keine Schwulenfrisur. 
+                Warum trägst du die Jacke um die Hüfte gebunden? 
+                Und vieles mehr... 
+                Sie hat es aber auch anhand meines Verhaltens/Art gemerkt, 
+                rasierte Beine oder an der ein oder anderen Bestellung. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+                Ihre Reaktion, nachdem sie den Brief gelesen hatte, war eine WhatsApp Nachricht, in der sie mir mitteilte, 
+                dass wenn ich reden wollen würde zu ihr kommen kann. In diesem Moment war es mir aber sehr unangenehm und ich 
+                wollte erstmal nur Musik hören. Nach ca. einer weiteren Stunde, bekahm ich eine erneute Nachricht von meiner Mutter,
+                mit der Bitte zu ihr zu kommen, was ich dann auch getan habe. Ich habe mich neben sie gesetzt und sie hat mich direkt
+                in ihre Arme genommen. Danach war es zwar erst mal eine weile ruhig und sie weinte.
+                Nach weiteren Minuten der unangenehmen Stille, begann sie mir dann langsam mir die ein oder andere Frage zu stellen.
+                Ansich würde ich mit jedem über diese Fragen locker ohne zu zögern reden, auch mit meiner Mutter, doch in deisem
+                Moment, war es nicht so leicht, wärend ich in ihr weinendes Gesicht blickte. Aber ich habe ihr jede Frage
+                beantwortet und von anfang an gesagt, da sie fragen kann was immer sie möchte und sie wird eine Antwort bekommen.
+                Danach ging es ihr für den Moment etwas besser und ich habe den restlichen Abend mit ihr verbraucht.
+                Am nächsten Morgen, fühlte ich mich einfach unheimlich wohl! Und jeder weitere Tag wurde nur besser und besser.
+                Nach ca. einer Woche hat auch meine Mutter es verarbeitet und ist seit dem nicht mehr immer leicht traurig.
+		Seit dem rede ich offen über alles und verhalte mich wie ich es möchte und verstelle mich nicht hier und da ab und zu.
+		Eine gewisse Verklemmtheit, gibt es aber immernoch ab und zu im Alltag, doch es legt sich von Tag zu Tag mehr.
+            &lt;/p&gt;
+
+            &lt;br /&gt;
+            &lt;br /&gt;</value>
+  </data>
+  <data name="ProfilePicture" xml:space="preserve">
+    <value>&lt;img src="~/src/JasonJT/FurryLove.jpg" class="ProfilePicture PP3 col" /&gt;
+            &lt;img src="~/src/JasonJT/Logo.jpg" class="ProfilePicture PP1 col" /&gt;
+            &lt;img src="~/src/JasonJT/DarkWolfFurry.png" class="ProfilePicture PP2 col" /&gt;</value>
+  </data>
+  <data name="QaA" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;F&amp;A&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Für was bin ich zu haben?&lt;/b&gt;
+                &lt;p&gt;Vieles, aber nicht alles, aber eigentlich für jeden Unfug!&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist das wichtigste in meinem Leben?&lt;/b&gt;
+                &lt;p&gt;Leute die einem was bedeuten und für einen da sind, wenn man sie braucht.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Welche Frage hasse ich?&lt;/b&gt;
+                &lt;p&gt;Seit wann?&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Seit wann?&lt;/b&gt;
+                &lt;p&gt;Schon immer, die Frage ist nur, wann man dazu steht.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Welches Wort beschreibt mich am besten?&lt;/b&gt;
+                &lt;p&gt;loyal&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was mag ich nicht?&lt;/b&gt;
+                &lt;p&gt;Wenn man sich streitet.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was würde ich an deinem letzten Tag machen?&lt;/b&gt;
+                &lt;p&gt;Zeit mit jenen verbringen die einem wichtig sind.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist meine größte Angst?&lt;/b&gt;
+                &lt;p&gt;Alleine da zu stehen&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Welche Ziele ich im Leben habe?&lt;/b&gt;
+                &lt;p&gt;Eigene Familie&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist besonders an mir?&lt;/b&gt;
+                &lt;p&gt;Ich weiß es nicht, sag du es mir.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist mein größter Wunsch?&lt;/b&gt;
+                &lt;p&gt;Ein Leben nach eigener Vorstellung, Freunde, Liebe, Aufmerksamkeit&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was kann ich anderen bieten?&lt;/b&gt;
+                &lt;p&gt;Freundschaft, Zeit, Hilfe, Empathie&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Wie kann man mir weh tun?&lt;/b&gt;
+                &lt;p&gt;Bedeute mir was und streite dann mit mir oder lass mich im stich.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was sind meine Schwächen?&lt;/b&gt;
+                &lt;p&gt;Abschied nehmen&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was erwarte ich von anderen?&lt;/b&gt;
+                &lt;p&gt;Respekt, (Eigentlich nichts)&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was bin ich leid?&lt;/b&gt;
+                &lt;p&gt;Rechenschaften ab zu geben.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Wen mag ich nicht?&lt;/b&gt;
+                &lt;p&gt;Alle Menschen, welche anderen Personen in jeglicher Form schaden zu fügen., Mich&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was macht mich traurig?&lt;/b&gt;
+                &lt;p&gt;Leid anderer, alleine sein, gewisse Lieder, Army Soldaten kommen nach hause nach Jahren&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Welches Lied würde auf meiner Beerdigung spielen?&lt;/b&gt;
+                &lt;br /&gt;
+                &lt;a href="https://youtu.be/ISwYaZGhLAY?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt;Mein Abschied&lt;/a&gt;
+                &lt;br /&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Für was schäme ich mich?&lt;/b&gt;
+                &lt;p&gt;Gewicht&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist mir peinlich?&lt;/b&gt;
+                &lt;p&gt;Nichts, sonst würde ich es nicht machen.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was ist mir unangenehm?&lt;/b&gt;
+                &lt;p&gt;Da gibt es vieles...&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;Was möchte ich nicht?&lt;/b&gt;
+                &lt;p&gt;Jemanden verletzen/entäuschen/im stich lassen, dass es jemandem wegen mir schlecht geht.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;br /&gt;
+            &lt;br /&gt;</value>
+  </data>
+  <data name="Q_1" xml:space="preserve">
+    <value>Für was bin ich zu haben?</value>
+  </data>
+  <data name="Socials" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;Socials&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;div class="container"&gt;
+                &lt;div class="row"&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://discordapp.com/users/246277810274959360"&gt; &lt;img class="SocialIcon" src="~/src/Icons/Social/Discord.svg" /&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://steamcommunity.com/profiles/76561198070637018"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Steam.svg" /&gt;&lt;b&gt;Steam&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/WhatsApp.svg" /&gt;&lt;b&gt;Whatsapp&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Telegram.svg" /&gt;&lt;b&gt;Telegram&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://www.youtube.com/channel/UCOqQZVNPqLl1u-HU7OekxIw"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/YouTube.svg" /&gt;&lt;b&gt;YouTube&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Gmail.svg" /&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+</root>

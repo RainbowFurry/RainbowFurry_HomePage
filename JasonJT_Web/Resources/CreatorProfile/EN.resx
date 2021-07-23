@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BasicInformation" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Name:&lt;/b&gt; Jason&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Nick Name:&lt;/b&gt; DarkSide_Wolf | DarkSideWolf_JT&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Age:&lt;/b&gt; 22 (09/20/1998)&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Sex:&lt;/b&gt; male (gay)&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Height:&lt;/b&gt; 1,80m&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Weight:&lt;/b&gt; -&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Occupation:&lt;/b&gt; computer scientist&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Hobbies:&lt;/b&gt; meeting friends, partying, climbing, swimming, gambling, programming&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;kind:&lt;/b&gt; kind, funny, reserved, emotional, helpful, affectionate&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Status:&lt;/b&gt; disappointed, wholetzt, alone&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;&lt;b&gt;Favorite activities:&lt;/b&gt; meeting friends, partying, gambling, programming, listening to music, driving&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite Movies🎞:&lt;/b&gt; American Pie, Matrix, Star Wars, Hangover, John Wick&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite series:&lt;/b&gt; South Park, Simpsons&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite Songs🎵:&lt;/b&gt; &lt;a href="https://www.youtube.com/playlist?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt;LGBT&lt;/a&gt;&lt;a href="https://youtu.be/ISwYaZGhLAY?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt; -&gt; Love Generation&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite Game🎮:&lt;/b&gt; The Last of Us&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite Animal:&lt;/b&gt; Wolf🐺 (Loyal)&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite Colors🎨:&lt;/b&gt; 🔴🟠🟡🟢🔵🟣 &lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite food:&lt;/b&gt; Pizza🍕, salad🥗, fruit cake🍰, ice cream🍨, fruit plate🍓&lt;/p&gt;
+        &lt;p&gt;&lt;b&gt;Favorite drink:&lt;/b&gt; Latte Macchiato☕, Spezi, Sex on the Beach🍹&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;p&gt;&lt;b&gt;Further:&lt;/b&gt; Dare and just ask 😉&lt;/p&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;
+        &lt;br /&gt;</value>
+  </data>
+  <data name="MyOuting" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;My Outing&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;p class="OutingContent"&gt;
+                I came out to my mother on 6/29/2021, as they call it (at the age of 22yo). 
+                I had been planning to tell her in some way for about 5 years, but I wanted to wait for the right time. 
+                An idea, or let's say an approach how to tell her, I also did not have. 
+                But since I had to admit to myself that the right time will never come, I decided to tell her, 
+                to tell her when I'm done with my training. 
+                On the 29th was my final oral exam, which I successfully passed. 
+                On the way to my car, after the exam I was overjoyed and sad at the same time and I had to cry, 
+                because I knew that I had reached my goal, which I had set for myself for 5 years. 
+                These 5 years were a shitty time for me, but they also had nice moments every now and then. 
+                times again beautiful moments to offer had. 
+                My dream job, so now no one can take away from me, but unfortunately I was not taken over by the company 
+                and the message that I will not be taken over came somewhat at short notice.
+                I knew the next day, I have to say goodbye to many nice colleagues and at the same time I have for the time being no company where I can work. 
+                no company where I can work. All this made me cry, but at the same time I wanted to have a small change in my life and not to have 
+                and not to be in a bad mood every day. 
+                I also didn't want to have to hide or keep something secret every day. 
+                And my decision to tell her with my passed training was already long fixed. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+                Arrived at home and after I told her my results and everything, I sat down at my PC and tried to tell her my confession. 
+                tried to write her my confession. This way had two reasons, one was that I just couldn't tell her. 
+                Secondly, my mother and I have had a very close and good relationship since forever.
+                We tell each other everything and have no secrets. 
+                Whenever one of us had something very important to tell the other, it was always in writing.
+                this was done in writing. Thus, this was another reason why I did it this way. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+   It took me a long time to put together a little to-do list of what I would like to write to her. 
+                It took me a long time to find questions that a mother could ask herself after this news. 
+                When I had roughly everything together, after a short nice introduction, I tried to make it clear to her in a gentle but direct way that I would like to write to her,
+                but direct white to make clear that I just do not tick as she would like it and now times gay. 
+                Since I could think that the question comes since when, since I stood nevertheless since then on girls, 
+                I answered this question in advance. I told her that this is not quite true and when she asked me, 
+                which girl I think is pretty or which girl I like..,
+                I said a good-looking girl.
+                Afterwards I added that I have found boys cute since the first grade and have rather looked after a boy than a girl. 
+                than a girl, let alone have I ever brought a girl home.
+                To the question why I tell her only now, I also gave an answer in advance. 
+                I have written to her in my letter that I wanted to tell her already 
+                and tried to tell her, but she often could have noticed it by my statements, remarks, comments,
+                or by the songs I always listen to, but she doesn't like my music. 
+                A main aspect, why I have not said it for a long time was, because I knew for me how I tick and what I want. 
+                I never had a problem with it or anything, but I knew or know how my family thinks about it. 
+                Even though my mother has had a friendship with a transsexual man for many years, 
+                she accepts him, his ways, etc., but when we were alone and she had the conversation with me regarding this person, 
+                I quickly realized that it was not going to be easy. The last few months before my outing, 
+                have made this even clearer, but she already had a strong 
+                a strong suspicion. I had to listen to questions and statements like: 
+                Is this a gay hairstyle? Hopefully not a gay hairstyle. 
+                Why are you wearing the jacket tied around your waist? 
+                And much more... 
+                But she also noticed it from my behavior/manner, 
+                shaved legs or by one or the other order. 
+                &lt;br /&gt;
+                &lt;br /&gt;
+                Her reaction, after she had read the letter, was a WhatsApp message in which she told me, 
+                that if I wanted to talk can come to her. At that moment, however, it was very uncomfortable for me and I 
+                wanted to hear only music. After about another hour, I got another message from my mother,
+                asking me to come to her, which I did. I sat down next to her and she took me directly into her arms.
+                in her arms. After that it was quiet for a while and she cried.
+                After a few more minutes of uncomfortable silence, she slowly started to ask me one or two questions.
+                Normally I would talk to anyone about these questions without hesitation, even with my mother, but in this moment it was not so easy to talk to her.
+                moment, it was not so easy, while I looked into her crying face. But I answered her every question
+                and told her from the beginning that she can ask whatever she wants and she will get an answer.
+                After that she felt a little better for the moment and I spent the rest of the evening with her.
+                The next morning, I just felt incredibly comfortable! And every other day only got better and better.
+                After about a week, my mom processed it as well and has not been sad ever since easily.
+            &lt;/p&gt;
+
+            &lt;br /&gt;
+            &lt;br /&gt;
+</value>
+  </data>
+  <data name="ProfilePicture" xml:space="preserve">
+    <value>&lt;img src="~/src/JasonJT/FurryLove.jpg" class="ProfilePicture PP3 col" /&gt;
+            &lt;img src="~/src/JasonJT/Logo.jpg" class="ProfilePicture PP1 col" /&gt;
+            &lt;img src="~/src/JasonJT/DarkWolfFurry.png" class="ProfilePicture PP2 col" /&gt;</value>
+  </data>
+  <data name="QaA" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;F&amp;A&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What am I up for?&lt;/b&gt;
+                &lt;p&gt;Many things, but not everything, but really any mischief!&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What is the most important thing in my life?&lt;/b&gt;
+                &lt;p&gt;People who mean something to you and are there for you when you need them.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What question do I hate?&lt;/b&gt;
+                &lt;p&gt;Since when?&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;Since when?&lt;/b&gt;
+                &lt;p&gt;Always, the only question is when to stand by it.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;What word best describes me?&lt;/b&gt;
+                &lt;p&gt;loyal&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What don't I like?&lt;/b&gt;
+                &lt;p&gt;When you argue&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What would I do on your last day?&lt;/b&gt;
+                &lt;p&gt;Spend time with those you care about.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;What is my biggest fear?&lt;/b&gt;
+                &lt;p&gt;Standing there alone&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What are my goals in life?&lt;/b&gt;
+                &lt;p&gt;To have my own family&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What is special about me?&lt;/b&gt;
+                &lt;p&gt;I don't know, you tell me.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;What is my greatest wish?&lt;/b&gt;
+                &lt;p&gt;A life of my own imagination, friends, love, attention&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;What can I offer others?&lt;/b&gt;
+                &lt;p&gt;Friendship, time, help, empathy&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;How can I be hurt?&lt;/b&gt;
+                &lt;p&gt;Tell me something and then argue with me or leave me in the lurch&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What are my weaknesses?&lt;/b&gt;
+                &lt;p&gt;Take leave&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What do I expect from others?&lt;/b&gt;
+                &lt;p&gt;Respect, (Nothing really)&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What am I tired of?&lt;/b&gt;
+                &lt;p&gt;Giving accounts.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;Who do I dislike?&lt;/b&gt;
+                &lt;p&gt;All people who harm other people in any form, Me&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What makes me sad?&lt;/b&gt;
+                &lt;p&gt;Pity of others, being alone, certain songs, Army soldiers coming home after years&lt;/p&gt;.
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What song would play at my funeral?&lt;/b&gt;
+                &lt;br /&gt;
+                &lt;a href="https://youtu.be/ISwYaZGhLAY?list=PLKNhAuZXLKnxFJZ5IU89jdYkGX99i9O_B"&gt;My farewell&lt;/a&gt;
+                &lt;br /&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What am I ashamed of?&lt;/b&gt;
+                &lt;p&gt;weight&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What am I embarrassed about?&lt;/b&gt;
+                &lt;p&gt;Nothing, or I wouldn't be doing it.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="Info"&gt;
+                &lt;b&gt;What makes me uncomfortable?&lt;/b&gt;
+                &lt;p&gt;There are many things...&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div class="info"&gt;
+                &lt;b&gt;What do I not want to do?&lt;/b&gt;
+                &lt;p&gt;Hurting/disappointing/letting someone feel bad because of me.&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;br /&gt;
+            &lt;br /&gt;</value>
+  </data>
+  <data name="Q_1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Socials" xml:space="preserve">
+    <value>&lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;br /&gt;
+            &lt;h2&gt;Socials&lt;/h2&gt;
+            &lt;br /&gt;
+
+            &lt;div class="container"&gt;
+                &lt;div class="row"&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://discordapp.com/users/246277810274959360"&gt; &lt;img class="SocialIcon" src="~/src/Icons/Social/Discord.svg" /&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://steamcommunity.com/profiles/76561198070637018"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Steam.svg" /&gt;&lt;b&gt;Steam&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/WhatsApp.svg" /&gt;&lt;b&gt;Whatsapp&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Telegram.svg" /&gt;&lt;b&gt;Telegram&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                    &lt;div class="col"&gt;
+                        &lt;div class="container"&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="https://www.youtube.com/channel/UCOqQZVNPqLl1u-HU7OekxIw"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/YouTube.svg" /&gt;&lt;b&gt;YouTube&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                            &lt;div class="row"&gt;
+                                &lt;div class="col"&gt;
+                                    &lt;a class="SocialLink" href="#"&gt;&lt;img class="SocialIcon" src="~/src/Icons/Social/Gmail.svg" /&gt;&lt;b&gt;Email&lt;/b&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;hr /&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+
+                &lt;/div&gt;
+            &lt;/div&gt;</value>
+  </data>
+</root>

@@ -1,0 +1,142 @@
+﻿Today:
+
+//// alles soweit responsive...
+//// DBs... - alles in db - gescheite texte ohne fehler...
+
+Main Index Page...
+agb etc.
+error
+info
+
+profile page... - genauere beschreibung - familien mensch etc.?
+problem bei tests, dass meist klische...
+
+schicken:
+mama?
+k?
+q...
+dimar etc.?
+
+offene sachen fertig
+reupload
+nachricht q... + dimar + k.
+
+--------
+Morgen:
+
+feedback - wird auf seite auch angezeigt -> Name, text, sterne, sex, alter? + file local
+
+Eigenfindung - paar fragen vor test, dass gedanken machen und dann vlt klarer... -> eichtung videos Q...?
+
+weitere inhalte / style von Q/taimi
+
+update nav options + cookie + handy
+cookie request + adden/managen - custom + bootstrap
+
+-------------------------------
+Zusatz:
+
+Mein Profil eigenes bild? 
+
+//SLOGAN - Sei dir selbst loyal und leb dein Leben wie du es gerne möchtest!
+//info dass ich furrys mag... 
+//entäuschungen gewohnt, tut trotzdem jedes mal wieder weh
+
+//was kannst du von mir erwarten? - offenheit, ehrlichkeit, nettichkeit, hilfsbereitschaft, etc...
+Kack Leben(das steht dir im weg): verbergen, verstellen, verleugnen, verbiegen, verheimlichen, verschweigen,... VS Besseres Leben: ...
+
+webseite: ich wusste wie ich ticke, für mich nicht wichtig..., irgent wann schon..., kp gedanken immer mal wieder,
+
+Playlists?
+furrys?
+socials: fb?
+
+login register
+error pages
+copy right... 2x
+popup am start mit wilkommen, danke und test...
+
+------------------------------------------------------------
+Gay Test: 
+
+2 systeme
+color marker wie ergebniss der fragen?
+jeh nach alter anderer testaufbau - ab 16 u darunter...
+test ergebnisse werden local in txt geschrieben mit 2-3 infos... - bekommt er aber auch gesagt dass ich nur info ob gay etc + alter
+
+FAQ? page
+Schwule sowohl M/W...
+https://www.vice.com/de/article/9bm7jd/woran-schwule-andere-schwule-erkennen-523
+
+-----------------
+-----------------
+Test M/W:
+eher arm halten oder arm liegen?
+
+https://de.wikihow.com/Herausfinden-ob-jemand-schwul-ist
+https://www.gq-magazin.de/beziehung-sex/artikel/drei-fragen-die-sie-einem-schwulen-mann-nie-stellen-sollten
+https://www.lilli.ch/selbsterkenntnis_schwul_lesbisch_bi_was_bin_ich
+//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung
+definition 3geschl.
+fragen nicht stellen... page?
+//war mir auch nicht sicher, auch wenn offensichtlich, wenn schon länger wie bei mir 1klasse dann...
+//story k. wenn zulange dann unglücklich...
+//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
+
+-----------------
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gesprächs text ich mum:
+sohn gebeten zu reden
+will nicht dass er ärger bekommt
+er traut sich nicht da angst, etc...
+wer bin ich wiso anruf
+frag eifach bin selber schwul...
+
+--------------
+
+shortcuts...
+hover text...
+context menu - rechts klick...
+logs?
+
+page leafe message warning...
+
+alle page title - res file page titles...
+
+animationen
+
+anderer splash screen? - screen nur wenn wirklich läd...
+
+keine fehler
+responsive - auch handy?
+
+----------
+eventuell alles auf zero neu anwenden...
+Templates erstellen hier oder zero oder kp...:
+
+Webseite taimi? - App?
+Danach app mal erstellen?

@@ -1,0 +1,351 @@
+﻿@using Nav = JasonJT_Web.Resources.Shared.Nav;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Shared/Nav.less">
+<link rel="stylesheet" href="~/Style/JasonJT/Shared/DropDown.less">
+
+<div class="NavContainer container-fluid">
+
+    <div class="NavBackground container-fluid"></div>
+    <div class="NavBackgroundBlur container-fluid"></div>
+    <div class="NavFree container-fluid"></div>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar" style="width:100%"></div>
+        </div>
+
+        <div class="NavBar container-fluid">
+
+            <div class="row container-fluid">
+
+                <!-- Nav Logo -->
+                <div class="col-auto">
+                    <a class="navbar-brand PageLogo" href="@Url.Action("Index", "Home")">
+                        <img id="NavLogo" src="~/src/JasonJT/Logo.jpg" alt="">
+                    </a>
+                </div>
+
+                <!-- Nav Links -->
+                <div class="LeftNavSide col-md-8">
+                    <div class="container-fluid">
+                        <div class="row container-fluid">
+
+                            <div class="col-auto">
+                                <a href="@Url.Action("Index", "Home")"><b class="Link">@Nav.LanguageHandler.loadDBValue("HomePage")</b></a>
+                            </div>
+
+                            @*<div class="col-auto">
+                                <a href="@Url.Action("Status", "Home")"><b class="Link">@Nav.LanguageHandler.loadDBValue("Status")</b></a>
+                            </div>*@
+
+                            <!-- Gender Test -->
+                            <div class="dropdown col-auto">
+                                <a class="dropbtn" href="@Url.Action("SexIntroduction", "Gender")"><b class="Link">@Nav.LanguageHandler.loadDBValue("Gay")</b></a>
+                                <div class="dropdown-content">
+
+                                    <a href="@Url.Action("SexIntroduction", "Gender")">@Nav.LanguageHandler.loadDBValue("GenderTest")</a>
+
+                                    <div class="dropdown1">
+                                        <a class="dropbtn1" href="#"><b class="Link">@Nav.LanguageHandler.loadDBValue("FurtherTestPages")</b></a>
+                                        <div class="dropdown-content1">
+                                            <a href="https://qtcandor.com/" target="_blank"><span class="fa fa-star Star"></span> 1. QT Candor</a>
+                                            <a href="https://www.idrlabs.com/de/sexuellen-orientierung/test.php" target="_blank">2. idrlabs</a>
+                                            <a href="https://quizlagoon.com/quiz/am-i-gay-quiz/" target="_blank">3. quizlagoon</a>
+                                            <a href="https://www.arealme.com/gay-test/de/" target="_blank">4. arealme</a>
+                                            <a href="https://www.buzzfeed.com/tomphillips/how-gay-are-you" target="_blank">5. buzzfeed</a>
+                                        </div>
+                                    </div>
+
+                                    <a href="@Url.Action("Sexuallitys", "Gender")">Sexuallitäten</a>
+
+                                    <a href="@Url.Action("Sign", "Gender")">Anzeichen</a>
+
+                                    <a href="https://taimi.com/de" target="_blank">@Nav.LanguageHandler.loadDBValue("Dating")</a>
+
+                                </div>
+                            </div>
+
+                            <!-- M/W Test -->
+                            <div class="dropdown col-auto">
+                                <a class="dropbtn" href="@Url.Action("GenderIntroduction", "Gender")"><b class="Link">M/W Test</b></a>
+                                <div class="dropdown-content">
+                                    <a href="@Url.Action("GenderIntroduction", "Gender")">M/W Test</a>
+
+                                    <div class="dropdown1">
+                                        <a class="dropbtn1" href="#"><b class="Link">@Nav.LanguageHandler.loadDBValue("FurtherTestPages")</b></a>
+                                        <div class="dropdown-content1">
+                                            <a href="https://www.gofeminin.de/psychotests/typisch-mann-typisch-frau-s2525718.html" target="_blank">1. gofeminin</a>
+                                            <a href="https://funtests.philognosie.net/liebe/maennlich-oder-weiblich-wie-denke-ich" target="_blank">2. philognosie</a>
+                                            <a href="https://play.howstuffworks.com/quiz/can-we-guess-youre-male-female-gr" target="_blank">3. howstuffworks</a>
+                                            <a href="https://myrealpersonality.com/de/tests/geschlechter-test-geschlechtsrollen-test-eher-maennlich-oder-weiblich" target="_blank">4. myrealpersonality</a>
+                                            <a href="#" target="_blank">5. Test</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-auto">
+                                <a href="@Url.Action("Advisor", "Gender")"><b class="Link">@Nav.LanguageHandler.loadDBValue("Advisor")</b></a>
+                            </div>
+
+                            <div class="col-auto">
+                                <a href="@Url.Action("CreatorProfile", "Home")"><b class="Link">@Nav.LanguageHandler.loadDBValue("CreatorProfile")</b></a>
+                            </div>
+
+                            <!-- Security -->
+                            @*<div class="dropdown col-auto">
+                                <a class="dropbtn" href="#"><b class="Link">Rechtliches</b></a>
+                                <div class="dropdown-content">
+                                    <a href="@Url.Action("Privacy", "Info")">@Nav.LanguageHandler.loadDBValue("Security")</a>
+                                    <a href="@Url.Action("AGB", "Info")">@Nav.LanguageHandler.loadDBValue("AGB")</a>
+                                    <a href="@Url.Action("About", "Info")">@Nav.LanguageHandler.loadDBValue("About")</a>
+                                    <div class="dropdown1">
+                                        <a class="dropbtn1" href="@Url.Action("Index", "Gender")"><b class="Link">Kontakt</b></a>
+                                        <div class="dropdown-content1">
+                                            <a href="https://discordapp.com/users/246277810274959360" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Discord.svg" />Discord</a>
+                                            <a href="https://steamcommunity.com/profiles/76561198070637018" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Steam.svg" />Steam</a>
+                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/WhatsApp.svg" />Whatsapp</a>
+                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Telegram.svg" />Telegram</a>
+                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/YouTube.svg" />YouTube</a>
+                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Gmail.svg" />Email</a>
+                                        </div>
+                                    </div>
+                                    <a href="@Url.Action("Feedback", "Info")">@Nav.LanguageHandler.loadDBValue("Feedback")</a>
+                                </div>
+                            </div>*@
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="RightSide container-fluid">
+                        <div class="row">
+
+                            <div class="col-auto">
+                                <svg onclick="showMenu()" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="var(--TextColor)"><rect fill="none" height="24" width="24" /><path d="M19.5,12c0-0.23-0.01-0.45-0.03-0.68l1.86-1.41c0.4-0.3,0.51-0.86,0.26-1.3l-1.87-3.23c-0.25-0.44-0.79-0.62-1.25-0.42 l-2.15,0.91c-0.37-0.26-0.76-0.49-1.17-0.68l-0.29-2.31C14.8,2.38,14.37,2,13.87,2h-3.73C9.63,2,9.2,2.38,9.14,2.88L8.85,5.19 c-0.41,0.19-0.8,0.42-1.17,0.68L5.53,4.96c-0.46-0.2-1-0.02-1.25,0.42L2.41,8.62c-0.25,0.44-0.14,0.99,0.26,1.3l1.86,1.41 C4.51,11.55,4.5,11.77,4.5,12s0.01,0.45,0.03,0.68l-1.86,1.41c-0.4,0.3-0.51,0.86-0.26,1.3l1.87,3.23c0.25,0.44,0.79,0.62,1.25,0.42 l2.15-0.91c0.37,0.26,0.76,0.49,1.17,0.68l0.29,2.31C9.2,21.62,9.63,22,10.13,22h3.73c0.5,0,0.93-0.38,0.99-0.88l0.29-2.31 c0.41-0.19,0.8-0.42,1.17-0.68l2.15,0.91c0.46,0.2,1,0.02,1.25-0.42l1.87-3.23c0.25-0.44,0.14-0.99-0.26-1.3l-1.86-1.41 C19.49,12.45,19.5,12.23,19.5,12z M12.04,15.5c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S13.97,15.5,12.04,15.5z" /></svg>
+                            </div>
+
+                            <div class="col-auto">
+                                <b class="Link">@Html.ActionLink("Login", "Login", "Account")</b>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- DropDown Control -->
+<script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function GenderTestDropdown() {
+        document.getElementById("GenderTestDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    //window.onclick = function (event) {
+    //    if (!event.target.matches('.dropbtn')) {
+    //        var dropdowns = document.getElementsByClassName("dropdown-content");
+    //        var i;
+    //        for (i = 0; i < dropdowns.length; i++) {
+    //            var openDropdown = dropdowns[i];
+    //            if (openDropdown.classList.contains('show')) {
+    //                openDropdown.classList.remove('show');
+    //            }
+    //        }
+    //    }
+    //}
+</script>
+
+<!-- Settings -->
+<div id="NavMenu" class="NavMenu Hide container pt-5 pb-5">
+
+    <div class="container-fluid">
+
+        <div class="row pl-5 pr-5 pb-3">
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#" onclick="changeLanguage()">
+                        <div class="row justify-content-center">
+                            <div class="Language"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="NavMenuMarked">Language</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#">
+                        <div class="row justify-content-center">
+                            <input class="MainColorPicker" type="color" value="#1b71ef">
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="NavMenuMarked">MainColor</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#">
+                        <div class="row justify-content-center">
+                            <input class="SecondaryColorPicker" type="color" value="#ea139e">
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="NavMenuMarked">Sec. Color</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pl-5 pr-5 pb-3">
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#" onclick="changeTheme()">
+                        <div class="row justify-content-center">
+                            <div class="ThemePicker"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="IconText">Theme</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#" onclick="changeStyle()">
+                        <div class="row justify-content-center">
+                            <div class="StylePicker"></div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="IconText">Style</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="MenuHover col pt-2">
+                <div class="container-fluid">
+                    <a href="#">
+                        <div class="row justify-content-center">
+                            <img class="" src="" />
+                        </div>
+                        <div class="row justify-content-center">
+                            <p class="IconText">FREE</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr class="Spacer">
+
+    <div class="container-fluid pt-3">
+
+        <div class="row pl-5 pr-5">
+            <a href="#" class="MenuLink col">Privacy_policy</a>
+            <a href="#" class="MenuLink col">Imprint</a>
+        </div>
+
+        <div class="row pl-5 pr-5">
+            <a href="#" class="MenuLink col">Terms_of_Use</a>
+            @{
+                if (User.Identity.IsAuthenticated)
+                {
+                    <a href="#" class="MenuLink col">Logout</a>
+                }
+            }
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Show Menu -->
+<script>
+    async function showMenu() {
+        var x = document.getElementById("NavMenu");
+        if (x.className.indexOf(" Show") == -1) {
+            x.style.setProperty("visibility", "visible");
+            await sleep(500);
+            x.className = x.className.replace(" Hide", " Show");
+        } else {
+            x.className = x.className.replace(" Show", " Hide");
+            await sleep(500);
+            x.style.setProperty("visibility", "collapse");
+        }
+    }
+
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+</script>
+
+<!-- Change Language -->
+<script>
+    function changeLanguage() {
+
+        const doc = document.getElementsByClassName("Language")[0];
+        const style = getComputedStyle(doc).getPropertyValue("background-image");
+
+        if (style.endsWith("German.png" + '"' + ")"))
+            doc.style.setProperty("background-image", "url('../../../src/Flags/English.png')");
+        else
+            doc.style.setProperty("background-image", "url('../../../src/Flags/German.png')");
+
+    }
+</script>
+
+<!-- Change Theme -->
+<script>
+    function changeTheme() {
+
+        const doc = document.getElementsByClassName("ThemePicker")[0];
+        const style = getComputedStyle(doc).getPropertyValue("background-color");
+        const style2 = getComputedStyle(doc).getPropertyValue("background");
+
+        if (style == "rgb(17, 17, 17)") {
+            doc.style.setProperty("background", "none");
+            doc.style.setProperty("background-color", "#fff");
+        } else if (style == "rgb(255, 255, 255)") {
+            doc.style.setProperty("background-color", "none");
+            doc.style.setProperty("background", "var(--Bi)");
+        } else if (style2.startsWith("rgba(0, 0, 0, 0) linear-gradient(to right, rgb(218, 0, 112), rgb(162, 12, 242), rgb(62, 70, 203))")) {
+            doc.style.setProperty("background-color", "none");
+            doc.style.setProperty("background", "var(--Gay)");
+        } else if (style2.startsWith("rgba(0, 0, 0, 0) linear-gradient(to right, rgb(242, 36, 0), rgb(255, 154, 48), rgb(255, 243, 50), rgb(112, 198, 11), rgb(5, 122, 228), rgb(255, 53, 173))")) {
+            doc.style.setProperty("background", "none");
+            doc.style.setProperty("background-color", "#111");
+        }
+
+    }
+</script>
+
+<!-- Change Style -->
+<script>
+    function changeStyle() {
+
+        const doc = document.getElementsByClassName("StylePicker")[0];
+        const style = getComputedStyle(doc).getPropertyValue("border-radius");
+
+        console.log(style);
+
+        if (style == "0px")
+            doc.style.setProperty("border-radius", "8px");
+        else
+            doc.style.setProperty("border-radius", "0px");
+
+    }
+</script>

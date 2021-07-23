@@ -1,0 +1,48 @@
+﻿@model  JasonJT_Web.Models.Account
+@using Login = JasonJT_Web.Resources.Account;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Account/Login.less">
+
+@{
+    ViewBag.Title = "JasonJT - Login";
+    Layout = "~/Views/Layout/_Account.cshtml";
+}
+
+<div class="StartRegistration">
+    <a href="@Url.Action("Registration", "Account")">@Login.LanguageHandler.loadDBValue("Registration")</a>
+</div>
+
+<h1 id="PageTitle">@Login.LanguageHandler.loadDBValue("Login_PageHeading")</h1>
+
+<div class="Login container-fluid pt-3 pb-3">
+    @using (Html.BeginForm())
+    {
+
+        <div class="LoginContent container-fluid pt-5 pb-5">
+
+            <div class="row justify-content-center pl-5 pr-5 pt-3">
+                <img class="Logo" src="~/src/JasonJT/Logo.jpg" />
+            </div>
+
+            <div class="row justify-content-center pl-5 pr-5 pt-3">
+                <h2 class="PageName">JasonJT</h2>
+            </div>
+
+            <div class="row justify-content-center pl-5 pr-5 pt-3">
+                <!-- Email or UserName -->
+                @Html.EditorFor(model => model.NickName, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.NickName), maxlength = "100", @class = "col justify-content-center" } })
+            </div>
+
+            <div class="row justify-content-center pl-5 pr-5 pt-3">
+                <!-- Password -->
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Password), maxlength = "100", @class = "col justify-content-center" } })
+            </div>
+
+            <div class="row justify-content-center pt-3 pl-5 pr-5">
+                <input class="col" type="submit" value="@Login.LanguageHandler.loadDBValue("Registration")">
+            </div>
+
+        </div>
+
+    }
+</div>

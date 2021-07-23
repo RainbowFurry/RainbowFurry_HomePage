@@ -1,0 +1,9 @@
+﻿@using CreatorProfile = JasonJT_Web.Resources.Shared.NoScript;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Shared/NoScript.less">
+
+<noscript>
+    <div class="NoScript">
+        @Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("NoScript"));
+    </div>
+</noscript>

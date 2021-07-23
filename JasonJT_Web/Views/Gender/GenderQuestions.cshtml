@@ -1,0 +1,104 @@
+﻿@using QuA = JasonJT_Web.Resources.Gender.QuA.Gender;
+
+@{
+    ViewBag.Title = "JasonJT - Gender Test Question: 1";
+}
+
+<link rel="stylesheet" href="~/Style/JasonJT/Gender/Question.less">
+
+@{
+    int index = (int)ViewData["Index"];
+    int secondIndex = index + 1;
+    int maxQuestion = 31;
+    int step = 100 / maxQuestion * (index - 1);
+    var stepWidth = step + "%";
+}
+
+<div class="header">
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar" style="width:@stepWidth"></div>
+    </div>
+</div>
+
+<div class="QuA container">
+
+    <p class="Step">Question: @index / @maxQuestion</p>
+
+    <div class="HeadingBox">
+        <h2 class="Question">@QuA.LanguageHandler.loadDBValue("Q_" + index)</h2>
+
+        <h4 class="Description">KP</h4>
+    </div>
+
+    @{
+        if (index != 1)
+        {
+            <div class="AwnserOptions container">
+
+                <div class="row">
+                    <div class="col">
+                        <p class="Awnser">
+                            @QuA.LanguageHandler.loadDBValue("A_" + index + "_1")
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <p class="Awnser">
+                            @QuA.LanguageHandler.loadDBValue("A_" + index + "_2")
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="Awnser">
+                            @QuA.LanguageHandler.loadDBValue("A_" + index + "_3")
+                        </p>
+                    </div>
+
+                    <div class="col">
+                        <p class="Awnser">
+                            @QuA.LanguageHandler.loadDBValue("A_" + index + "_4")
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="SpecialAwnser container">
+
+                @if(index == 1)
+                {
+                    <input type="number" min="12" max="100" value="12" />
+                    <input type="range" min="0" max="4" step="1" />
+                }
+
+                <!-- -->
+
+            </div>
+        }
+    }
+
+    @{
+        <div class="Button container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                @if (QuA.LanguageHandler.loadDBValue("Q_" + secondIndex) != "NULL")
+                {
+                    @*<div class="col-md-4">*@
+                        <div class="container-fluid">
+                            <a href="@Url.Action("GenderQuestions", "Gender", new { Index = secondIndex })" class="NextQuestion">Nächste Frage</a>
+                        </div>
+                    @*</div>*@
+                }
+                else
+                {
+                    <a href="@Url.Action("GenderResult", "Gender")" class="NextQuestion">Ergebniss</a>
+                }
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    }
+
+</div>

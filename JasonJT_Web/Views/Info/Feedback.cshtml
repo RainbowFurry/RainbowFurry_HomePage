@@ -1,0 +1,62 @@
+﻿<link rel="stylesheet" href="~/Style/JasonJT/Info/Style.less">
+
+@{
+    ViewBag.Title = "JasonJT - Feedback";
+}
+
+<h2>Feedback</h2>
+
+<div class="Conntent">
+    <p>
+        Dein Feedback ist mir wichtig und ich würde mich freuen, wenn du dir 5 Minuten
+        deiner Zeit nimmst und mir mitteilen würders, was dir an der Seite
+        gefällt und was du denkst, was man verbessern kann.
+        Solltest du mit mir Kontakt gehabt haben, würde ich mich
+        freuen, wenn du unser Gespräch/Chat bewerten würdest.
+        Nur auf diese weiße kann ich mich verbessern.
+        Ein Anliegen hierbei, wäre mir aber, dass du sachlich bleibst und ehrlich.
+        Es bringt keinem was einfach irgend etwas zu schreiben, vorallem nicht,
+        wenn ich schon extra keinen Schutz oder Filter Mechanissmuss einbaue.
+    </p>
+</div>
+
+
+@using (Html.BeginForm())
+{
+
+    <div class="Feedback">
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Name -->
+            @*@Html.EditorFor(model => model.Name, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Name), @type = "text", maxlength = "100", @class = "col justify-content-center" } })*@
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Age? -->
+            @*@Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })*@
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Sex? -->
+            @*@Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })*@
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Rating -->
+            @*@Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })*@
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Text -->
+            @*@Html.TextAreaFor(model => model.Text, new
+                {
+                    htmlAttributes = new { placeholder = @Html.NameFor(model => model.Text), @type = "text", maxlength = "10000", @class = "col justify-content-center" }
+                })*@
+        </div>
+
+        <div class="row justify-content-center pt-3 pl-5 pr-5">
+            <input class="col" type="submit" value="Senden">
+        </div>
+    </div>
+
+}
+

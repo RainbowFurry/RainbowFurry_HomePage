@@ -1,0 +1,181 @@
+﻿@using CreatorProfile = JasonJT_Web.Resources.CreatorProfile;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Home/CreatorProfile.less">
+
+@{
+    ViewBag.Title = "JasonJT - Creator Profile";
+    Layout = "~/Views/Layout/_CreatorProfile.cshtml";
+}
+
+<h1 id="PageHeading">Profile</h1>
+
+<br />
+<br />
+
+<!-- Creator Profile -->
+<div class="CreatorProfile">
+
+    <!-- Profile Pictures -->
+    <div class="container">
+        <div class="ProfilePictures row">
+            <img src="~/src/JasonJT/FurryLove.jpg" class="ProfilePicture PP3 col" />
+            <img src="~/src/JasonJT/Logo.jpg" class="ProfilePicture PP1 col" />
+            <img src="~/src/JasonJT/DarkWolfFurry.png" class="ProfilePicture PP2 col" />
+        </div>
+        @*<div class="row">
+            <img src="~/src/JasonJT/Me/1.jpg" style="height:35%; width: 35%;"/>
+        </div>*@
+    </div>
+
+    <!-- Creator Profile Info -->
+    <div class="CreatorProfileInformation">
+
+        <!-- Main Info -->
+        <div class="BasicInformation">
+            @Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("BasicInformation"));
+        </div>
+
+        <hr />
+
+        <div class="MyOuting">
+            @Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("MyOuting"));
+        </div>
+
+        <hr />
+
+        <!-- Side Info -->
+        <div class="AdvancedInformation">
+            @Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("QaA"));
+
+            @*@{
+
+                int counter = 1;
+
+                while (CreatorProfile.LanguageHandler.loadDBValue("QaA") != null || CreatorProfile.LanguageHandler.loadDBValue("QaA") != "NULL")
+                {
+
+                    <div class="Info">
+                        <b>@Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("Q_" + counter));</b>
+                        <p>@Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("A_" + counter));</p>
+                    </div>
+
+                    counter++;
+                }
+            };*@
+
+        </div>
+
+        <hr />
+
+        <!-- Socials -->
+        <div class="Socials">
+            @*@Html.Raw(CreatorProfile.LanguageHandler.loadDBValue("Socials"));*@
+            <br />
+            <br />
+            <br />
+            <br />
+            <h2>Socials</h2>
+            <br />
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="https://discordapp.com/users/246277810274959360"> <img class="SocialIcon" src="~/src/Icons/Social/Discord.svg" /><b>Discord</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="https://steamcommunity.com/profiles/76561198070637018"><img class="SocialIcon" src="~/src/Icons/Social/Steam.svg" /><b>Steam</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="#"><img class="SocialIcon" src="~/src/Icons/Social/WhatsApp.svg" /><b>Whatsapp</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="#"><img class="SocialIcon" src="~/src/Icons/Social/Telegram.svg" /><b>Telegram</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="https://www.youtube.com/channel/UCOqQZVNPqLl1u-HU7OekxIw"><img class="SocialIcon" src="~/src/Icons/Social/YouTube.svg" /><b>YouTube</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col">
+                                    <a class="SocialLink" href="#"><img class="SocialIcon" src="~/src/Icons/Social/Gmail.svg" /><b>Email</b></a>
+                                </div>
+                            </div>
+                            <hr />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    // get the element to animate
+    var element = document.getElementById('NameInfoName');
+    var elementHeight = element.clientHeight;
+
+    // listen for scroll event and call animate function
+    document.addEventListener('scroll', animate);
+
+    // check if element is in view
+    function inView() {
+        // get window height
+        var windowHeight = window.innerHeight;
+        // get number of pixels that the document is scrolled
+        var scrollY = window.scrollY || window.pageYOffset;
+
+        // get current scroll position (distance from the top of the page to the bottom of the current viewport)
+        var scrollPosition = scrollY + windowHeight;
+        // get element position (distance from the top of the page to the bottom of the element)
+        var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
+
+        // is scroll position greater than element position? (is element in view?)
+        if (scrollPosition > elementPosition) {
+            return true;
+        }
+
+        return false;
+    }
+
+    // animate element when it is in view
+    function animate() {
+        // is element in view?
+        if (inView()) {
+            // element is in view, add class to element
+            element.classList.add('animate');
+        }
+    }
+
+</script>
+

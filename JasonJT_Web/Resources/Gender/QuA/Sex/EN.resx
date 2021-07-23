@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A_11_1" xml:space="preserve">
+    <value>Join in! Let's party!</value>
+  </data>
+  <data name="A_11_2" xml:space="preserve">
+    <value>Get excited about meeting new bars.</value>
+  </data>
+  <data name="A_11_3" xml:space="preserve">
+    <value>Feel uncomfortable.</value>
+  </data>
+  <data name="A_11_4" xml:space="preserve">
+    <value>Secretly be excited because you've always wanted to go to a gay bar!</value>
+  </data>
+  <data name="A_15_1" xml:space="preserve">
+    <value>Depends on the boy.</value>
+  </data>
+  <data name="A_15_2" xml:space="preserve">
+    <value>The masculine appearance (or: the beard, etc.).</value>
+  </data>
+  <data name="A_15_3" xml:space="preserve">
+    <value>A cute face.</value>
+  </data>
+  <data name="A_15_4" xml:space="preserve">
+    <value>Nothing. Why also?</value>
+  </data>
+  <data name="A_21_1" xml:space="preserve">
+    <value>That could happen, yeah.</value>
+  </data>
+  <data name="A_21_2" xml:space="preserve">
+    <value>Nah, why is that? I just talk to him normally.</value>
+  </data>
+  <data name="A_21_3" xml:space="preserve">
+    <value>Pretty sure.</value>
+  </data>
+  <data name="A_21_4" xml:space="preserve">
+    <value>FREE</value>
+  </data>
+  <data name="A_22_1" xml:space="preserve">
+    <value>Rejoice. You're in!</value>
+  </data>
+  <data name="A_22_2" xml:space="preserve">
+    <value>Be a little confused, but probably in!</value>
+  </data>
+  <data name="A_22_3" xml:space="preserve">
+    <value>Never. I only like the opposite sex!</value>
+  </data>
+  <data name="A_22_4" xml:space="preserve">
+    <value>Join in, I don't care about the gender of the person.</value>
+  </data>
+  <data name="A_25_1" xml:space="preserve">
+    <value>I feel terrible just listening to them.</value>
+  </data>
+  <data name="A_25_2" xml:space="preserve">
+    <value>I don't participate, they have a right to their own opinion</value>
+  </data>
+  <data name="A_25_3" xml:space="preserve">
+    <value>I discuss with them</value>
+  </data>
+  <data name="A_25_4" xml:space="preserve">
+    <value>I like to join them</value>
+  </data>
+  <data name="A_28_1" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="A_28_2" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="A_28_3" xml:space="preserve">
+    <value>With open profile</value>
+  </data>
+  <data name="A_28_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_29_1" xml:space="preserve">
+    <value>Yes, most of the time</value>
+  </data>
+  <data name="A_29_2" xml:space="preserve">
+    <value>Yes, I used to be interested.</value>
+  </data>
+  <data name="A_29_3" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="A_29_4" xml:space="preserve">
+    <value>FREE</value>
+  </data>
+  <data name="A_30_1" xml:space="preserve">
+    <value>Beer</value>
+  </data>
+  <data name="A_30_2" xml:space="preserve">
+    <value>Gin</value>
+  </data>
+  <data name="A_30_3" xml:space="preserve">
+    <value>Wein</value>
+  </data>
+  <data name="A_30_4" xml:space="preserve">
+    <value>Sekt</value>
+  </data>
+  <data name="A_30_5" xml:space="preserve">
+    <value>Cocktail</value>
+  </data>
+  <data name="A_30_6" xml:space="preserve">
+    <value>Whiskey</value>
+  </data>
+  <data name="A_31_1" xml:space="preserve">
+    <value>Sia</value>
+  </data>
+  <data name="A_31_2" xml:space="preserve">
+    <value>Miley Cyrus</value>
+  </data>
+  <data name="A_31_3" xml:space="preserve">
+    <value>Bruno Mars</value>
+  </data>
+  <data name="A_31_4" xml:space="preserve">
+    <value>Beonce</value>
+  </data>
+  <data name="A_31_5" xml:space="preserve">
+    <value>Lady Gaga</value>
+  </data>
+  <data name="A_31_6" xml:space="preserve">
+    <value>Harry Styles</value>
+  </data>
+  <data name="A_31_7" xml:space="preserve">
+    <value>Jennifer Lopez</value>
+  </data>
+  <data name="A_31_8" xml:space="preserve">
+    <value>FREE</value>
+  </data>
+  <data name="A_6_1" xml:space="preserve">
+    <value>Yes, has happened to me several times.</value>
+  </data>
+  <data name="A_6_2" xml:space="preserve">
+    <value>Yes, I had once.</value>
+  </data>
+  <data name="A_6_3" xml:space="preserve">
+    <value>No, I usually only look at the girls.</value>
+  </data>
+  <data name="A_6_4" xml:space="preserve">
+    <value>No, the guys don't interest me.</value>
+  </data>
+  <data name="A_8_1" xml:space="preserve">
+    <value>I'll take anyone / everyone as long as they can give it to me good.</value>
+  </data>
+  <data name="A_8_2" xml:space="preserve">
+    <value>There are limits on age, weight and cleanliness, but they can be fluid if it's horny.</value>
+  </data>
+  <data name="A_8_3" xml:space="preserve">
+    <value>He or she must already be attractive and meet my high standards.</value>
+  </data>
+  <data name="A_8_4" xml:space="preserve">
+    <value>For sex it must fit 100%.</value>
+  </data>
+  <data name="A_9_1" xml:space="preserve">
+    <value>Yes, all my fantasies are about the same sex.</value>
+  </data>
+  <data name="A_9_2" xml:space="preserve">
+    <value>Often.</value>
+  </data>
+  <data name="A_9_3" xml:space="preserve">
+    <value>Never.</value>
+  </data>
+  <data name="A_9_4" xml:space="preserve">
+    <value>Rarely.</value>
+  </data>
+  <data name="MaxQuestion" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="Q_1" xml:space="preserve">
+    <value>How old are you?</value>
+  </data>
+  <data name="Q_10" xml:space="preserve">
+    <value>How often do you fantasize about the same sex?</value>
+  </data>
+  <data name="Q_11" xml:space="preserve">
+    <value>If your friends decided to party at a gay bar, would you?</value>
+  </data>
+  <data name="Q_12" xml:space="preserve">
+    <value>When a boy touches you (hug or similar), do you like the feeling?</value>
+  </data>
+  <data name="Q_13" xml:space="preserve">
+    <value>When you see a good-looking boy, do you notice him and look after him?</value>
+  </data>
+  <data name="Q_14" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Q_15" xml:space="preserve">
+    <value>What do you like most about boys?</value>
+  </data>
+  <data name="Q_16" xml:space="preserve">
+    <value>Does your gaydar work? Do you recognize other gay people?</value>
+  </data>
+  <data name="Q_17" xml:space="preserve">
+    <value>Imagine someone of the same sex comes up to you and kisses you. What's your reaction?</value>
+  </data>
+  <data name="Q_18" xml:space="preserve">
+    <value>When a handsome couple comes toward you, who do you notice first?</value>
+  </data>
+  <data name="Q_19" xml:space="preserve">
+    <value>When you see a gay couple kissing, what do you feel?</value>
+  </data>
+  <data name="Q_2" xml:space="preserve">
+    <value>Why are you taking this test?</value>
+  </data>
+  <data name="Q_20" xml:space="preserve">
+    <value>A pretty, good friend invites you to her house. What do you think?</value>
+  </data>
+  <data name="Q_21" xml:space="preserve">
+    <value>You're at a party and a hot-looking boy approaches you. Do you get a little nervous, excited, or even speechless?</value>
+  </data>
+  <data name="Q_22" xml:space="preserve">
+    <value>If your partner offered you a threesome with a same-sex partner, would you?</value>
+  </data>
+  <data name="Q_23" xml:space="preserve">
+    <value>Have you ever been afraid or reluctant to tell your family about your sexual or romantic preferences?</value>
+  </data>
+  <data name="Q_24" xml:space="preserve">
+    <value>Do you feel comfortable talking about your sexual identity or having someone ask you about it?</value>
+  </data>
+  <data name="Q_25" xml:space="preserve">
+    <value>What do you do when your friends talk homophobic stuff?</value>
+  </data>
+  <data name="Q_26" xml:space="preserve">
+    <value>Have you ever worn clothes of the opposite sex, or fantasized about it?</value>
+  </data>
+  <data name="Q_27" xml:space="preserve">
+    <value>Have you ever dreamed of being romantically involved with a person of the same sex?</value>
+  </data>
+  <data name="Q_28" xml:space="preserve">
+    <value>Have you joined an online LGBT community anonymously?</value>
+  </data>
+  <data name="Q_29" xml:space="preserve">
+    <value>Have you ever watched same-sex pornography?</value>
+  </data>
+  <data name="Q_3" xml:space="preserve">
+    <value>Have you ever looked at a person of the same sex and felt attracted in a sexual way?</value>
+  </data>
+  <data name="Q_30" xml:space="preserve">
+    <value>What beverage would you drink?</value>
+  </data>
+  <data name="Q_31" xml:space="preserve">
+    <value>Pick a singer/songstress.</value>
+  </data>
+  <data name="Q_4" xml:space="preserve">
+    <value>Have you ever kissed a person of the same sex?</value>
+  </data>
+  <data name="Q_5" xml:space="preserve">
+    <value>Have you ever kissed a person of the opposite sex?</value>
+  </data>
+  <data name="Q_6" xml:space="preserve">
+    <value>Have you ever seen a boy or man, or even had contact with him, and then thought about him for hours and days afterwards - his face or voice echoed in your head for a long time.</value>
+  </data>
+  <data name="Q_7" xml:space="preserve">
+    <value>Unfortunately, he never showed up again?</value>
+  </data>
+  <data name="Q_8" xml:space="preserve">
+    <value>Have you ever had sex fantasies with the opposite sex?</value>
+  </data>
+  <data name="Q_9" xml:space="preserve">
+    <value>How flexible and tolerant are you in choosing your sexual partners?</value>
+  </data>
+</root>

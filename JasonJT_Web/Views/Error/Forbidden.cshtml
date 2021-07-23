@@ -1,0 +1,38 @@
+﻿@using Error = JasonJT_Web.Resources.Error;
+
+@{
+    ViewBag.Title = "JasonJT - Error: 403 Forbidden";
+    Layout = "~/Views/Layout/_Error.cshtml";
+}
+
+<div class="Error container">
+
+    <b class="ErrorCode">
+        403
+    </b>
+
+    <p class="ErrorHeading">
+        @Error.LanguageHandler.loadDBValue("Forbidden_Heading")
+    </p>
+
+    <p class="ErrorDescription">
+        @Error.LanguageHandler.loadDBValue("Forbidden_Description")
+    </p>
+
+    <div class="ErrorHelp">
+
+    </div>
+
+    <div class="row">
+
+        <a href="@Url.Action("Index", "Home")" class="HomeButton">
+            @Error.LanguageHandler.loadDBValue("BackToHome")
+        </a>
+
+        @*<a href="#" class="OtherAction col-auto rounded">
+                <p>Contact Us</p>
+            </a>*@
+
+    </div>
+
+</div>

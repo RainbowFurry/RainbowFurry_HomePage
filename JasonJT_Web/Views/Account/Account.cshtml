@@ -1,0 +1,64 @@
+﻿<link rel="stylesheet" href="~/Style/JasonJT/Account/Account.less">
+
+@{
+    ViewBag.Title = "JasonJT - Accont";
+    Layout = "~/Views/Layout/_CreatorProfile.cshtml";
+}
+
+@{
+    var banner = ViewData["Banner"];
+    var profilePicture = ViewData["ProfilePicture"];
+
+    var id = User.Identity.Name;
+    var nickName = ViewData["NickName"];
+    var firstName = ViewData["FirstName"];
+    var lastName = ViewData["LastName"];
+    var birthday = ViewData["Birthday"];
+    var sex = ViewData["Sex"];
+    var email = ViewData["Email"];
+    var gender = ViewData["Gender"];
+    var role = ViewData["Role"];
+}
+
+<div class="Account container">
+
+    <div class="Profile">
+
+        <div class="Banner">
+            <img src="@banner" />
+        </div>
+
+        <div class="ProfileImage pt-5">
+            <img src="@Html.Raw(@profilePicture)" />
+        </div>
+
+        <div class="ProfileInfo pt-5">
+            <p><b>ID:</b> @id</p>
+
+            <p><b>NickName:</b> @nickName</p>
+
+            <p><b>FirstName:</b> @firstName</p>
+
+            <p><b>LastName:</b> @lastName</p>
+
+            <p><b>Birthday:</b> @birthday</p>
+
+            <p><b>Gender:</b> @gender</p>
+
+            <p><b>Email:</b> @email</p>
+
+            <p><b>Sex:</b> @sex</p>
+
+            <p><b>Role:</b> @role</p>
+        </div>
+
+    </div>
+
+    <div class="Socials pt-5">
+        <p><b>Facebook:</b> -</p>
+        <p><b>Instagram:</b> -</p>
+        <p><b>Snapchat:</b> -</p>
+        <p><b>Twitter:</b> -</p>
+    </div>
+
+</div>

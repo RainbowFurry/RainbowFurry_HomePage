@@ -1,0 +1,141 @@
+﻿:root {
+    /* Main Vars */
+    --MainColor: #1b71ef;
+    --SecondaryColor: #ea139e;
+    --BackgroundColor: #111;
+    --TextColor: #fff;
+    --Background: linear-gradient(to right, #e83167 0%, #1d32cd 100%);
+    /* Gender */
+    --Gay2: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+    --Gay: linear-gradient(to right, #f22400, #ff9a30, #fff332, #70c60b, #057ae4, #ff35ad);
+    --Bi: linear-gradient(to right, #da0070, #a20cf2, #3e46cb);
+    --transparent: rgba(255,255,255,0);
+    --BackgroundGradient: linear-gradient(to left top, #3672e1, #556deb, #7466f2, #945bf6, #b34bf5, #ce3be6, #e426d5, #f600c3, #fe00a5, #ff0089, #fc1770, #f4305a);
+    --BackgroundGradient2: radial-gradient(circle, #3672e1, #556deb, #7466f2, #945bf6, #b34bf5, #ce3be6, #e426d5, #f600c3, #fe00a5, #ff0089, #fc1770, #f4305a);
+    --BackgroundGradient3: linear-gradient(to right bottom, #3672e1, #556deb, #7466f2, #945bf6, #b34bf5, #ce3be6, #e426d5, #f600c3, #fe00a5, #ff0089, #fc1770, #f4305a);
+}
+
+/* Shaddow Effects */
+/**/
+/* Blur Effect */
+/*filter: blur(8px);
+-webkit-filter: blur(8px);*/
+
+.BodyBackground {
+    //background: url(../../src/Images/Background.PNG);
+    height: auto;
+    width: auto;
+    padding-top: 1.5%;
+}
+
+.BodyBackgroundBlur {
+    background-color: var(--BackgroundColor);
+    opacity: 0.9;
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: var(--BackgroundColor) !important;
+}
+
+p {
+    color: #a9a9a9 !important;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 4px solid linear-gradient(to bottom, #da0070, #a20cf2, #3e46cb);
+    background-clip: content-box;
+    background: linear-gradient(to bottom, #da0070, #a20cf2, #3e46cb);
+}
+
+/* width */
+body::-webkit-scrollbar {
+    background-color: transparent !important;
+    width: 1vw;
+    /*width: 10px;*/
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background-color: #111;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    /*background: #555;*/
+}
+
+/* Gradient Scrollbar */
+/*body::-webkit-scrollbar {
+    width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(7, 0, 211, 1) 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: transparent;*/ /* opacity: 0; should do the thing either */
+    /*box-shadow: 0px 0px 0px 100000vh black;
+}*/
+
+/*b {
+    color: #fff !important;
+}
+*/
+
+/* Gradient Animation */
+@-webkit-keyframes GradientAnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes GradientAnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes GradientAnimation {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/*
+        -webkit-animation: GradientAnimation 2s ease infinite;
+    -moz-animation: GradientAnimation 2s ease infinite;
+    animation: GradientAnimation 2s ease infinite;
+*/

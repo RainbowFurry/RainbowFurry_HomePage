@@ -1,0 +1,74 @@
+﻿@using TestResult = JasonJT_Web.Resources.Gender.Result;
+
+@{
+    ViewBag.Title = "JasonJT - Test Result";
+}
+
+<link rel="stylesheet" href="~/Style/JasonJT/Gender/Result.less">
+
+
+@{
+    var index = 0;
+}
+
+<div class="TestResult container">
+
+    <div class="row">
+        <div class="Heading">
+            <h1>@Html.Raw(TestResult.LanguageHandler.loadDBValue("Result"));</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="Result Box container">
+            @{
+                if (index == 0)
+                {
+                    <p class="col">@Html.Raw(TestResult.LanguageHandler.loadDBValue("YouAre")); @Html.Raw(TestResult.LanguageHandler.loadDBValue("Gay"));</p>
+                }
+                else if (index == 1)
+                {
+                    <p class="col">@Html.Raw(TestResult.LanguageHandler.loadDBValue("YouAre")); @Html.Raw(TestResult.LanguageHandler.loadDBValue("Bi_W"));</p>
+                }
+                else if (index == 2)
+                {
+                    <p class="col">@Html.Raw(TestResult.LanguageHandler.loadDBValue("YouAre")); @Html.Raw(TestResult.LanguageHandler.loadDBValue("Bi_M"));</p>
+                }
+                else if (index == 3)
+                {
+                    <p class="col">@Html.Raw(TestResult.LanguageHandler.loadDBValue("YouAre")); @Html.Raw(TestResult.LanguageHandler.loadDBValue("Bi"));</p>
+                }
+                else
+                {
+                    <p class="col">@Html.Raw(TestResult.LanguageHandler.loadDBValue("YouAre")); @Html.Raw(TestResult.LanguageHandler.loadDBValue("Hetero"));</p>
+                }
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="Description Box">
+            <p class="col">
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+                Das ist nur ein Exampel Text. Das ist nur ein Exampel Text. Das ist nur ein Exampel Text.
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="Help Box">
+            <p class="col">Jetzt ist die Frage, irritiert, verwirrt, erfreut dich das Ergebniss?</p>
+        </div>
+    </div>
+
+</div>

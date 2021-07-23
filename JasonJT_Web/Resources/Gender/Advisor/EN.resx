@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Friends" xml:space="preserve">
+    <value>&lt;h1&gt;Guide for friends&lt;/h1&gt;
+
+    &lt;h4&gt;How do I act when my friend comes out?&lt;/h4&gt;
+
+    &lt;p&gt;
+        With friends to give an advice is a little more difficult, the I find there you do not need to give advice.
+        To me, friends or colleagues have already said that they are gay.
+        On it gave from me mostly as an answer, I have already thought. I always found the astonished look funny,
+        but I did not tell the person that I am also gay.
+        For many people who come out, many contacts break off from this point on, but why?
+        The friendship or the behavior will still not change!
+        On the contrary, a gay person is attached to friendships and he will always be there for you when you need him.
+        I would also say that you can have a lot of fun with a gay friend (disco, partying, etc.).
+        It might be weird because you might have the thought that your boyfriend might be into you,
+        but well, if that's the case, then it was like that before and you can't change it.
+        But I think that your friend knows how to behave and it remains a normal friendship.
+        Maybe he will try to come out to you first and find help.
+        Show him your understanding and that you are there for him, it is something normal and nothing bad, he has done nothing wrong!
+
+
+    &lt;/p&gt;</value>
+  </data>
+  <data name="Parents" xml:space="preserve">
+    <value>&lt;h1&gt;Guide for parents and relatives&lt;/h1&gt;.
+
+    &lt;h4&gt;How do I act when my child comes out?&lt;/h4&gt;
+
+    &lt;p&gt;
+        When your child comes out, it comes as a shock to many parents at first!
+        The worst reaction in this moment, is to get angry.
+        Sure, it is not easy to process this news first,
+        But it was also not easy for their child to give them this news.
+        If it accidentally slipped out in the argument, it can be an even bigger shock for your child.
+        shock.
+        Show understanding and that you are ready to talk, if your child is as well.
+        As soon as your child wants to talk to you, he will say everything by himself and if there are any questions, he will answer them,
+        they will answer them if your child is ready.
+        It should be casual, relaxed, open conversation and your child should feel comfortable, even if they are
+        it can/will still be oppressive in the beginning.
+        One question I can take away in advance is the question since when?
+        The question is stupid in my eyes, because the answer is always. It is rather the question when one stands to it!
+        A better question would be if you should tell the other relatives or if your child wants to do it himself.
+        You should also notice a small difference in the next days and weeks.
+        Your child will show them who he really is in a different way.
+        This can be varhaltensmäßig, it can be clothing-related or other.
+        This does not mean that your child is now a different person, on the contrary, he is still the old one, only
+        your child now starts not to hide everything and behaves/do what your child always wanted.
+        The joy will last, but the day will come when they will be happy with their child and for their child.
+
+    &lt;/p&gt;</value>
+  </data>
+  <data name="Self" xml:space="preserve">
+    <value>&lt;h1&gt;Guide before coming out&lt;/h1&gt;.
+
+    &lt;h4&gt;What should I do? I'm at a loss&lt;/h4&gt;.
+
+    &lt;p&gt;
+        If you are sure what you want and where you want to go, then we already have
+        the first step. My next question would be, are you hiding something at home from your
+        from your parents that is related to this. If so, how does it feel to always have to hide it?
+        to have to hide it? It could also be that there were conversations, like about
+        a friend and you lied to that person. If that is the case, how did it
+        or does it still feel like not telling anyone?
+        I understand that it is not easy, if you read my profile, you know that
+        I told my mother at the age of 22 and roughly what I told her.
+        I told her. I had not told anyone before, it was only from that day on that everyone
+        I knew about it. Since this is not so "easy" for everyone, it would be advisable,
+        first of all to talk about it with his best friend. Should this also
+        option for the beginning, then maybe a stranger would be a contact point.
+        a contact point. Other people can help you bit by bit and accompany you on your way.
+        accompany you on your way. I would be there for you at any time, should you need help.
+        Otherwise, I can only recommend &lt;a href="https://qtcandor.com/"&gt;QT Candor&lt;/a&gt;.
+        
+        An open conversation/chat can not be easy in the beginning, I have been through all of that
+        behind me, but it is a first step towards improvement.
+        Finally, ask yourself if it's worth hiding all of this?
+        Why are you hiding it? Are you harming yourself?
+        I can only tell you that it is your life, your life in which only you decide what you want to do.
+        what you want to do. Only you decide which way you go, what you wear etc..
+        Everybody has his life and everybody lives his life. Everyone can try to change you
+        whether you allow it depends on you, but why live a life according to the wishes or ideas of others?
+        of others? Don't they live their own life according to their ideas?
+        Start to find yourself and love yourself, then start to stand up for who you are and fight for what you want.
+        fight for what you want, or you will never get it and live a "lie".
+        I can only tell you that no matter what you do, your parents will be there for you.
+        (With friends it is a bit more difficult, but then you will see who your real friends are and you will find
+        you will see that you will find new real friends very quickly).
+
+    &lt;/p&gt;</value>
+  </data>
+</root>

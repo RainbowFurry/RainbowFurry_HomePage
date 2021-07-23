@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A_10_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_10_2" xml:space="preserve">
+    <value>-
+-
+-
+-
+-</value>
+  </data>
+  <data name="A_10_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_10_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_11_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_11_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_11_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_11_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_12_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_12_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_12_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_12_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_13_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_13_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_13_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_13_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_14_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_14_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_14_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_14_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_15_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_15_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_15_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_15_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_16_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_16_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_16_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_16_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_17_1" xml:space="preserve">
+    <value>Die härteren Sachen </value>
+    <comment>n</comment>
+  </data>
+  <data name="A_17_2" xml:space="preserve">
+    <value>Wein, Sekt, Cocktail</value>
+    <comment>w (Sex on the beach)</comment>
+  </data>
+  <data name="A_17_3" xml:space="preserve">
+    <value>Bier</value>
+    <comment>m </comment>
+  </data>
+  <data name="A_17_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_18_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_18_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_18_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_18_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_19_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_19_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_19_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_19_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_1_1" xml:space="preserve">
+    <value>Erst der Kopf und danach die Arme.</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_1_2" xml:space="preserve">
+    <value>Erst die Arme und dann über den Kopf.</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_1_3" xml:space="preserve">
+    <value>Es gibt noch einen Weg.</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_1_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_20_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_20_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_20_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_20_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_21_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_21_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_21_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_21_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_22_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_22_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_22_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_22_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_23_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_23_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_23_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_23_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_24_1" xml:space="preserve">
+    <value>Ich pinkel mal im sitzen mal im stehen</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_24_2" xml:space="preserve">
+    <value>Ich pinkel im stehen.</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_24_3" xml:space="preserve">
+    <value>Ich pinkel im sitzen.</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_24_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_2_1" xml:space="preserve">
+    <value>Ich bin sehr empathie voll.</value>
+  </data>
+  <data name="A_2_2" xml:space="preserve">
+    <value>Hin und wieder.</value>
+  </data>
+  <data name="A_2_3" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="A_2_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_3_1" xml:space="preserve">
+    <value>Oft</value>
+  </data>
+  <data name="A_3_2" xml:space="preserve">
+    <value>Selten</value>
+  </data>
+  <data name="A_3_3" xml:space="preserve">
+    <value>Nie</value>
+  </data>
+  <data name="A_3_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_4_1" xml:space="preserve">
+    <value>Ich suche mir einen großeren Parkplatz.</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_4_2" xml:space="preserve">
+    <value>Ich versuche vorsichtig einzuparken.</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_4_3" xml:space="preserve">
+    <value>Ich parke ohne Probleme ein.</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_4_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_5_1" xml:space="preserve">
+    <value>Ja</value>
+    <comment>-</comment>
+  </data>
+  <data name="A_5_2" xml:space="preserve">
+    <value>Nein</value>
+    <comment>-</comment>
+  </data>
+  <data name="A_5_3" xml:space="preserve">
+    <value>Teilweise</value>
+    <comment>-</comment>
+  </data>
+  <data name="A_5_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_6_1" xml:space="preserve">
+    <value>Ich singe oft</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_6_2" xml:space="preserve">
+    <value>Ich singe ab und zu</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_6_3" xml:space="preserve">
+    <value>Ich singe nie</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_6_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_7_1" xml:space="preserve">
+    <value>Mit dem Kopf</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_7_2" xml:space="preserve">
+    <value>Intuition</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_7_3" xml:space="preserve">
+    <value>-</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_7_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_8_1" xml:space="preserve">
+    <value>Ich versuche erst mal alleine den Weg zu finden.</value>
+    <comment>m</comment>
+  </data>
+  <data name="A_8_2" xml:space="preserve">
+    <value>Ich frage direkt jemanden nach dem Weg.</value>
+    <comment>w</comment>
+  </data>
+  <data name="A_8_3" xml:space="preserve">
+    <value>-</value>
+    <comment>n</comment>
+  </data>
+  <data name="A_8_4" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="A_9_1" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_9_2" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_9_3" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="A_9_4" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MaxQuestion" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Q_1" xml:space="preserve">
+    <value>Wie ziehst du deinen Pullover an?</value>
+  </data>
+  <data name="Q_10" xml:space="preserve">
+    <value>Ein Freund/eine Freundin hat ein persönliches Problem und möchte es mit dir darüber reden. Wie reagierst du?</value>
+  </data>
+  <data name="Q_11" xml:space="preserve">
+    <value>Wie streitest du gewöhnlich?</value>
+  </data>
+  <data name="Q_12" xml:space="preserve">
+    <value>Wann machst du wichtige Besorgungen?</value>
+  </data>
+  <data name="Q_13" xml:space="preserve">
+    <value>Was regt dich am meisten auf, wenn du mit jemandem streitest?</value>
+  </data>
+  <data name="Q_14" xml:space="preserve">
+    <value>Wie gut kannst du tanzen?</value>
+  </data>
+  <data name="Q_15" xml:space="preserve">
+    <value>Liebe ist für mich....</value>
+  </data>
+  <data name="Q_16" xml:space="preserve">
+    <value>Wie trinkst du deinen Kaffe?</value>
+  </data>
+  <data name="Q_17" xml:space="preserve">
+    <value>Was trinkst du?</value>
+  </data>
+  <data name="Q_18" xml:space="preserve">
+    <value>Welche Serie würdest du eher schauen?</value>
+    <comment>Sex and the City?</comment>
+  </data>
+  <data name="Q_19" xml:space="preserve">
+    <value>Partnerwahl Frage...</value>
+  </data>
+  <data name="Q_2" xml:space="preserve">
+    <value>Wie steht es mit deiner Empathie?</value>
+  </data>
+  <data name="Q_20" xml:space="preserve">
+    <value>Inwiefern sind deine Haare ein Thema für dich?</value>
+  </data>
+  <data name="Q_21" xml:space="preserve">
+    <value>Kannst du nähen, stricken, oder häckeln?</value>
+  </data>
+  <data name="Q_22" xml:space="preserve">
+    <value>Du hast herausgefunden, dass dein Freund  hinter deinem Rücken über dich redet. Was tust du?</value>
+  </data>
+  <data name="Q_23" xml:space="preserve">
+    <value>Wofür würdest du am Ende des Monats das Geld ausgeben, wenn du noch genügend zur Verfügung hättest?</value>
+  </data>
+  <data name="Q_24" xml:space="preserve">
+    <value>Pinkelst du im sitzen oder im stehen?</value>
+  </data>
+  <data name="Q_3" xml:space="preserve">
+    <value>Übermannen dich oft deine Tränen, bei traurigen Filmen oder bei Hochzeitsreden oder Abschieden?</value>
+  </data>
+  <data name="Q_4" xml:space="preserve">
+    <value>Du hast eine Parklücke gefunden, die allerdings recht eng ist und in die du rückwärts einparken müßten. Wie verhaltest du dich?</value>
+  </data>
+  <data name="Q_5" xml:space="preserve">
+    <value>Du hast gerade einen neuen Song von deinem Lieblingssänger gehört. Kannst du das Lied nachsingen?</value>
+  </data>
+  <data name="Q_6" xml:space="preserve">
+    <value>Sings du oft und gerne bei Lieder mit und versuchst es bestmöglichst wie das Original zu singen?</value>
+  </data>
+  <data name="Q_7" xml:space="preserve">
+    <value>Wie triffst du die meisten Entscheidungen?</value>
+  </data>
+  <data name="Q_8" xml:space="preserve">
+    <value>Du hast dich verfahren und dein Navi streikt. Was tust du?</value>
+  </data>
+  <data name="Q_9" xml:space="preserve">
+    <value>Du möchten Ihren Urlaub auf dem Land verbringen, doch dein Partner/deine Partnerin möchte gerne ans Meer. Wie versuchst du, ihn/sie davon zu überzeugen, dass dein Reiseziel das bessere ist?</value>
+  </data>
+</root>

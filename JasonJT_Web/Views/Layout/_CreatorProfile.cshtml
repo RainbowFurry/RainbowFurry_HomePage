@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/x-icon" href="~/src/JasonJT/Logo.ico">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @* Manifest *@
+    <link rel="manifest" href="/manifest.json">
+    @* FontAwesome Icons *@
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="~/Content/font-awesome-4.7.0/css/font-awesome.min.css">
+    @* Material Icons *@
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    @* ToolTip CSS *@
+    <link href="~/Style/JasonJT/Shared/Tooltip.less" rel="stylesheet">
+    @* Import Bootstrap *@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <!-- Own Style Variables -->
+    <link rel="stylesheet" href="~/Style/JasonJT/Variables.less">
+    <!-- Info Box -->
+    <link rel="stylesheet" href="~/Style/JasonJT/Shared/InfoBox.less">
+
+</head>
+<body>
+
+    @* Code CopyRight *@
+    @{
+        Html.RenderPartial("CopyRight");
+    }
+
+    @* SplashScreen *@
+    @{
+        Html.RenderPartial("SplashScreen");
+    }
+
+    @* Secure File share between Client/Server *@
+    @Html.AntiForgeryToken()
+
+    @Html.Partial("NoScript")
+
+    <div class="Nav">
+        @Html.Partial("Nav")
+    </div>
+
+    @* Body Container *@
+    <div class="BodyBackground">
+        <div class="container body-content">
+
+
+            <div class="BodyBackgroundBlur">
+                @* Body Content *@
+                @RenderBody()
+            </div>
+
+            @* Footer *@
+            @*<footer>
+                    <p>&copy; @DateTime.Now.Year - Jason Hoffmann</p>
+                </footer>*@
+
+            @*@Html.Partial("Footer")*@
+
+        </div>
+    </div>
+
+    @*@Html.Partial("Footer")*@
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    @* Register Installation ServiceWorker *@
+    <script async>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/serviceworker.js')
+                .then(function () { console.log('Service Worker Registered'); });
+        }
+    </script>
+
+    @* Initial Device Info *@
+    <link type="text/javascript" href="~/Scripts/JasonJT/DeviceInfo.js">
+
+    @* ShortCuts *@
+    <script type="text/javascript" src="~/Scripts/shortcut.js"></script>
+    <script type="text/javascript" src="~/Scripts/JasonJT/ShortCuts.js"></script>
+
+    @* Cookies *@
+    @*<script type="text/javascript" src="~/Scripts/JasonJT/CookieRequest.js"></script>
+        <script type="text/javascript" src="~/Scripts/JasonJT/Cookie.js"></script>*@
+
+</body>
+</html>

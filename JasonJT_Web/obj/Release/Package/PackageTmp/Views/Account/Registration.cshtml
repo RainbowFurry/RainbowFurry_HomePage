@@ -1,0 +1,75 @@
+﻿@model  JasonJT_Web.Models.Account
+@using Login = JasonJT_Web.Resources.Account;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Account/Registration.less">
+
+@{
+    ViewBag.Title = "JasonJT - Registration";
+    Layout = "~/Views/Layout/_Account.cshtml";
+}
+
+<h1 id="PageTitle">@Login.LanguageHandler.loadDBValue("Registration_PageHeading")</h1>
+
+<div class="Registration container-fluid pt-3 pb-3">
+    @using (Html.BeginForm())
+    {
+
+    <div class="RegistrationContent container-fluid pt-5 pb-5">
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <img class="Logo" src="~/src/JasonJT/Logo.jpg" />
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <h2 class="PageName">JasonJT</h2>
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- NickName -->
+            @Html.EditorFor(model => model.NickName, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.NickName), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- Email -->
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- First Name -->
+            @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.FirstName), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- Last Name -->
+            @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.LastName), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- Birthday -->
+            @Html.EditorFor(model => model.Birthday, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Birthday), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- Password -->
+            @Html.EditorFor(model => model.Password, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Password), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pl-5 pr-5 pt-3">
+            <!-- Password Confirm -->
+            @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.ConfirmPassword), maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <!--
+    Street
+    HouseNumber
+    City
+    PostCode
+    -->
+
+        <div class="row justify-content-center pt-3 pl-5 pr-5">
+            <input class="col" type="submit" value="@Login.LanguageHandler.loadDBValue("Login")">
+        </div>
+    </div>
+
+    }
+    </div>

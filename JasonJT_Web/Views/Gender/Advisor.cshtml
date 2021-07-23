@@ -1,0 +1,26 @@
+﻿@using Advisor = JasonJT_Web.Resources.Gender.Advisor;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Gender/Advisor.less">
+
+@{
+    ViewBag.Title = "JasonJT - Advisor";
+}
+
+<div class="Advisor_Parents">
+    @Html.Raw(Advisor.LanguageHandler.loadDBValue("Parents"));
+    <!-- Vlt mal bei anzeichen etc. mit kind reden... verständniss ausdrücken etc. -->
+</div>
+
+<div class="Advisor_Friends">
+    @Html.Raw(Advisor.LanguageHandler.loadDBValue("Friends"));
+</div>
+
+<div class="Advisor_Self">
+    @Html.Raw(Advisor.LanguageHandler.loadDBValue("Self"));
+</div>
+
+<!--
+Kachel artig
+Willst verstehen
+möchtest für jemand da sein
+-->

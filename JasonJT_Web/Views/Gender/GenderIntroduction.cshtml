@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "JasonJT - Gender Test Introduction";
+}
+
+<link rel="stylesheet" href="~/Style/JasonJT/Gender/Introduction.less">
+
+<div class="Introduction">
+    <h1>Kurze Einleitung</h1>
+
+    <p>!!!Dieser Test Funktioniert noch nicht!!!</p>
+
+    <p class="Info">
+        Dieser Test ist kein psychologischer Test. Ich habe den Test aus eigenen Fragen und Antworten erstellt
+        und teils aus Anreizen aus anderen Tests.
+        Im Generellen, würde ich sagen, dass Tests nicht zwangsläufige etwas aussagen. Sie zeigen eine
+        Statistik oder grobe Richtung, doch in jeder Statistik gibt es immer auch ausreißer.
+        Wie das Ergebnis dieses Tests zu wertest ist, ist eine andere Sache, das kann jeder für sich
+        entscheiden, doch der Test soll dir und anderen eine grobe Richtung und Selbstauskunft geben.
+    </p>
+
+    <p>
+        Es bringt nichts falsche angaben zu machen, dann kommt auch kein gescheites Ergebniss dabei raus. Du verarscht dich also selbst.
+        Außerdem kann keiner außer du diese Angaben sehen, da diese auch nicht gespeichert oder sonstiges werden.
+
+        Du kannst nach einer getroffenen Entscheidung nicht wieder zurück. Überleg dir also gut was deine Antwort ist und überleg ruhig ein paar Minuten.
+        Es geht bei diesem Test nicht um Zeit und es läuft auch kein Counter.
+        Wir wollen herausfinden wer du bist.
+    </p>
+
+    <p>Falls es dich Interressiert, mein Ergebniss ist 50/50. Soll ich dazu was sagen?! 😉</p>
+
+    <a href="@Url.Action("GenderQuestions", "Gender", new { Index = 1 })" class="Button Questions">
+        Zu dem Test
+    </a>
+</div>
