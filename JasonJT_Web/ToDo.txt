@@ -1,37 +1,37 @@
 ﻿Today:
 
-Seite auf git zero hochladen...
-reupload
-nachricht q... + dimar + k.
---
+cookie request + adden/managen - custom + bootstrap - wenn cookies nicht angenommen passiert nix da keine rechte?
+git upload + Server -> Splash, (Feedback, Contact), ...
+1. Texte - de/en
+2. alles soweit responsive...
+3. Tests
+4. Style
+5. update nav options + cookie + handy
+6. Geht alles...
 
-//// alles soweit responsive...
-cookie request + adden/managen - custom + bootstrap
-
-1. Feedback - save txt and load - feedback - wird auf seite auch angezeigt -> Name, text, sterne, sex, alter? + file local
-2. Tests - save txt and result
-3. update nav options + cookie + handy
+//gleichberechtigungs seite... ist nicht jeder gleichberechtigt? wiso kempfen alle für sich oder ein ziel...
+//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung + Alle weiteren verlinken u listen
+definition 3geschl.
+fragen nicht stellen... page?
+//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
+profile page... - genauere beschreibung - familien mensch etc.?
 
 --------
 Morgen:
 
-//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung
-definition 3geschl.
-fragen nicht stellen... page?
-//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
+login register Account... style
+error pages... style
+copy right... 2x text + style
+info - all pages style + content
+Main Index Page... content + style
 
-login register Account...
-error pages
-copy right... 2x
 popup am start mit wilkommen, danke und test...
 
-Main Index Page...
-agb etc.
-error
-info
-profile page... - genauere beschreibung - familien mensch etc.?
-
 //// DBs... - alles in db - gescheite texte ohne fehler...
+
+ToDo..
+nachricht q... + dimar + k.
+
 -------------------------------
 Zusatz:
 
@@ -58,7 +58,6 @@ jeh nach alter anderer testaufbau - ab 16 u darunter...
 test ergebnisse werden local in txt geschrieben mit 2-3 infos... - bekommt er aber auch gesagt dass ich nur info ob gay etc + alter
 
 FAQ? page
-Schwule sowohl M/W...
 https://www.vice.com/de/article/9bm7jd/woran-schwule-andere-schwule-erkennen-523
 
 -----------------
@@ -68,6 +67,8 @@ Weiteres:
 https://de.wikihow.com/Herausfinden-ob-jemand-schwul-ist
 https://www.gq-magazin.de/beziehung-sex/artikel/drei-fragen-die-sie-einem-schwulen-mann-nie-stellen-sollten
 https://www.lilli.ch/selbsterkenntnis_schwul_lesbisch_bi_was_bin_ich
+
+https://www.iboys.at/magazin/tomboy-1128.html
 -----------------
 -----------------
 

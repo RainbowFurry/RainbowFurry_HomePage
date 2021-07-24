@@ -65,7 +65,7 @@ namespace JasonJT_Web.Controllers
             account.UserID = Guid.NewGuid().ToString();
             account.Password = hashPassword.CreateHash(account.Password);
             account.ConfirmPassword = hashPassword.CreateHash(account.ConfirmPassword);
-            account.Role = Models.Roles.User;
+            account.Role = Models.Enum.Roles.User;
 
             if (MongoDBManager.Instance.CreateEntry("JasonJT_Users", account.ToBsonDocument()))
             {

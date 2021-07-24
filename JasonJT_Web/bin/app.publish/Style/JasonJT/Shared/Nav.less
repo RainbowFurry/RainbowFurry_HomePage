@@ -1,0 +1,248 @@
+﻿svg:hover {
+
+    rect {
+        fill: var(--MainColor);
+    }
+
+    .MenuIcon {
+        opacity: 1 !important;
+    }
+}
+
+.NavSocialIcon {
+    height: 48px;
+    width: 48px;
+    padding-right: 1vw;
+}
+
+#NavMenu {
+    visibility: collapse;
+}
+
+.Link {
+    padding-right: 1vw;
+    color: var(--SecondaryColor);
+}
+
+#NavLogo {
+    width: 48px;
+    height: 48px;
+    margin-top: -2vh;
+    border-radius: 50%;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    top: 2vh !important;
+    z-index: 999;
+    /*box-shadow: 0px 0.5px var(--SecondaryColor);*/
+    /*background-color: #171717;*/
+    background-color: var(--Transparent);
+    margin-bottom: 0 !important;
+    /*Test:test;*/
+    padding: 0 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+/*a {
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 20px;
+}*/
+
+a:hover {
+    cursor: pointer;
+}
+
+/*p {
+    text-decoration: none;
+    opacity: 0.7;
+    font-size: 20px;
+}*/
+
+//Overwrite Link Hover Effekt
+/*a:hover, a:focus {
+    color: #fff !important;
+    opacity: 0.7;
+    text-decoration: none !important;
+}*/
+
+.Spacer {
+    background: var(--SecondaryColor);
+}
+
+/* NavMenu */
+.NavMenu {
+    -webkit-animation: Nav-slide-bot 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: Nav-slide-bot 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+div.NavMenu.Hide {
+    -webkit-animation: Nav-slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: Nav-slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+div#NavMenu {
+    width: 25%;
+    background-color: #1d1d1d;
+    position: fixed;
+    z-index: 99;
+    border-radius: 10px 10px 10px 10px;
+    right: 2%;
+    top: 10%;
+}
+
+.NavMenuMarked {
+    color: var(--MainColor);
+    opacity: 1;
+    font-size: 16px;
+}
+
+.Language {
+    background-image: url("../../../src/Flags/German.png");
+    height: 40px;
+    width: 50px;
+}
+
+input[type=color] {
+    height: 32px;
+    width: 64px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.MainColorPicker {
+   //
+}
+
+.ThemePicker {
+    background-color: #111;
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+}
+
+.SecondaryColorPicker {
+    background-color: #111;
+}
+
+.StylePicker {
+    background: #111;
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+}
+
+//Slide Animation Settings
+@-webkit-keyframes Nav-slide-bot {
+    0% {
+        display: none;
+        -webkit-transform: translateY(-200%);
+        transform: translateY(-200%);
+    }
+
+    100% {
+        display: block;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes Nav-slide-top {
+    0% {
+        display: block;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    100% {
+        display: none;
+        -webkit-transform: translateY(-200%);
+        transform: translateY(-200%);
+    }
+}
+
+.Nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 0;
+    max-height: 10vh;
+    padding-bottom: 6vh;
+    left: 0;
+}
+
+.NavBar {
+    padding-left: 14vw;
+}
+
+.NavBackgroundBlur {
+    height: 6vh;
+    /*background-color: rgb(27 27 27 / 70%);*/
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.NavBackground {
+    height: 6vh;
+    background: var(--Bi);
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.Nav::before {
+    background: var(--Bi);
+    width: 100%;
+    height: 5vh;
+    opacity: 0.2;
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+.Nav::after {
+    background: var(--Bi);
+    z-index: 2;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    content: '';
+    position: absolute;
+    top: 0;
+}
+
+/* Progress Bar */
+.progress-container {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6px;
+    background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    display: none;
+    height: 6px;
+    background: var(--Bi);
+    width: 0%;
+}
+
+.Star{
+    color: yellow;
+}

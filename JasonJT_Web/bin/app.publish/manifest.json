@@ -1,0 +1,38 @@
+﻿{
+  "lang": "en",
+  "name": "JasonJT",
+  "short_name": "JasonJT",
+  "description": "Sie dir selbst loyal und leb dein Leben wie du es gerne möchtest!",
+  "theme_color": "#1b71ef",
+  "background_color": "#111",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "src/Manifest/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "src/Manifest/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "src/Manifest/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "src/Manifest/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "src/Manifest/icon-196x196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    }
+  ]
+}

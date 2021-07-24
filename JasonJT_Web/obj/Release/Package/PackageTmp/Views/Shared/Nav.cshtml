@@ -36,8 +36,8 @@
                             </div>
 
                             @*<div class="col-auto">
-                                <a href="@Url.Action("Status", "Home")"><b class="Link">@Nav.LanguageHandler.loadDBValue("Status")</b></a>
-                            </div>*@
+                                    <a href="@Url.Action("Status", "Home")"><b class="Link">@Nav.LanguageHandler.loadDBValue("Status")</b></a>
+                                </div>*@
 
                             <!-- Gender Test -->
                             <div class="dropdown col-auto">
@@ -96,30 +96,31 @@
 
                             <!-- Security -->
                             @*<div class="dropdown col-auto">
-                                <a class="dropbtn" href="#"><b class="Link">Rechtliches</b></a>
-                                <div class="dropdown-content">
-                                    <a href="@Url.Action("Privacy", "Info")">@Nav.LanguageHandler.loadDBValue("Security")</a>
-                                    <a href="@Url.Action("AGB", "Info")">@Nav.LanguageHandler.loadDBValue("AGB")</a>
-                                    <a href="@Url.Action("About", "Info")">@Nav.LanguageHandler.loadDBValue("About")</a>
-                                    <div class="dropdown1">
-                                        <a class="dropbtn1" href="@Url.Action("Index", "Gender")"><b class="Link">Kontakt</b></a>
-                                        <div class="dropdown-content1">
-                                            <a href="https://discordapp.com/users/246277810274959360" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Discord.svg" />Discord</a>
-                                            <a href="https://steamcommunity.com/profiles/76561198070637018" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Steam.svg" />Steam</a>
-                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/WhatsApp.svg" />Whatsapp</a>
-                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Telegram.svg" />Telegram</a>
-                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/YouTube.svg" />YouTube</a>
-                                            <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Gmail.svg" />Email</a>
+                                    <a class="dropbtn" href="#"><b class="Link">Rechtliches</b></a>
+                                    <div class="dropdown-content">
+                                        <a href="@Url.Action("Privacy", "Info")">@Nav.LanguageHandler.loadDBValue("Security")</a>
+                                        <a href="@Url.Action("AGB", "Info")">@Nav.LanguageHandler.loadDBValue("AGB")</a>
+                                        <a href="@Url.Action("About", "Info")">@Nav.LanguageHandler.loadDBValue("About")</a>
+                                        <div class="dropdown1">
+                                            <a class="dropbtn1" href="@Url.Action("Index", "Gender")"><b class="Link">Kontakt</b></a>
+                                            <div class="dropdown-content1">
+                                                <a href="https://discordapp.com/users/246277810274959360" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Discord.svg" />Discord</a>
+                                                <a href="https://steamcommunity.com/profiles/76561198070637018" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Steam.svg" />Steam</a>
+                                                <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/WhatsApp.svg" />Whatsapp</a>
+                                                <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Telegram.svg" />Telegram</a>
+                                                <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/YouTube.svg" />YouTube</a>
+                                                <a href="#" target="_blank"><img class="NavSocialIcon" src="~/src/Icons/Social/Gmail.svg" />Email</a>
+                                            </div>
                                         </div>
+                                        <a href="@Url.Action("Feedback", "Info")">@Nav.LanguageHandler.loadDBValue("Feedback")</a>
                                     </div>
-                                    <a href="@Url.Action("Feedback", "Info")">@Nav.LanguageHandler.loadDBValue("Feedback")</a>
-                                </div>
-                            </div>*@
+                                </div>*@
 
                         </div>
                     </div>
                 </div>
 
+                <!-- Login -->
                 <div class="col-md-2">
                     <div class="RightSide container-fluid">
                         <div class="row">
@@ -129,7 +130,16 @@
                             </div>
 
                             <div class="col-auto">
-                                <b class="Link">@Html.ActionLink("Login", "Login", "Account")</b>
+                                @{
+                                    if (!User.Identity.IsAuthenticated)
+                                    {
+                                        <b class="Link">@Html.ActionLink("Login", "Login", "Account")</b>
+                                    }
+                                    else
+                                    {
+                                        <b class="Link">@Html.ActionLink("Account", "Account", "Account")</b>
+                                    }
+                                }
                             </div>
 
                         </div>
@@ -264,7 +274,7 @@ toggle between hiding and showing the dropdown content */
             @{
                 if (User.Identity.IsAuthenticated)
                 {
-                    <a href="#" class="MenuLink col">Logout</a>
+                    <b class="MenuLink col">@Html.ActionLink("Logout", "Logout", "Account")</b>
                 }
             }
         </div>

@@ -1,0 +1,81 @@
+﻿@using Nav = JasonJT_Web.Resources.Shared.Nav;
+@using Footer = JasonJT_Web.Resources.Shared.Footer;
+
+<link rel="stylesheet" href="~/Style/JasonJT/Shared/Footer.less">
+
+<br />
+
+<div class="Footer container-fluid">
+
+    <div class="FooterBackground container-fluid"></div>
+    <div class="FooterBackgroundBlur container-fluid"></div>
+
+    <div class="FooterContent container-fluid pb-3">
+        <div class="row container-fluid">
+
+            <div id="MainPages" class="Box col-md-2">
+                <div class="container-fluid">
+                    <ul class="mainpage-list">
+                        <li><h5>Main Pages</h5></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("Index", "Home")"><b>@Nav.LanguageHandler.loadDBValue("HomePage")</b></a></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("CreatorProfile", "Home")"><b>@Nav.LanguageHandler.loadDBValue("CreatorProfile")</b></a></li>
+                        @*<li><a href="@Url.Action("Status", "Home")"><b>@Nav.LanguageHandler.loadDBValue("Status")</b></a></li>*@
+                        <li><i class="arrow right"></i><a href="@Url.Action("SexIntroduction", "Gender")"><b>@Nav.LanguageHandler.loadDBValue("GenderTest")</b></a></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("GenderIntroduction", "Gender")"><b>M/W Test</b></a></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("Sexuallitys", "Gender")"><b>Sexuallitäten</b></a></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("Sign", "Gender")"><b>Anzeichen</b></a></li>
+                        <li><i class="arrow right"></i><a href="https://taimi.com/de"><b>@Nav.LanguageHandler.loadDBValue("Dating")</b></a></li>
+                        <li><i class="arrow right"></i><a href="@Url.Action("Advisor", "Gender")"><b>@Nav.LanguageHandler.loadDBValue("Advisor")</b></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="info" class="Box col-md-2">
+                    <div class="container-fluid">
+                        <ul class="info-list">
+                            <li><h5>Informationen</h5></li>
+                            <li><i class="arrow right"></i><a href="@Url.Action("Sexuallitys", "Gender")"><b>Sexuallitäten</b></a></li>
+                            <li><i class="arrow right"></i><a href="@Url.Action("Sign", "Gender")"><b>Anzeichen</b></a></li>
+                            <li><i class="arrow right"></i><a href="@Url.Action("Advisor", "Gender")"><b>@Nav.LanguageHandler.loadDBValue("Advisor")</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="RecomandedLinks" class="Box col-md-2">
+                    <div class="container-fluid">
+                        <ul class="RecomandedLinks-list">
+                            <li><h5>Empfohlene Links</h5></li>
+                            <li><i class="arrow right"></i><a href="@Url.Action("SexIntroduction", "Gender")"><b>@Nav.LanguageHandler.loadDBValue("GenderTest")</b></a></li>
+                            <li><i class="arrow right"></i><a href="@Url.Action("GenderIntroduction", "Gender")"><b>M/W Test</b></a></li>
+                            <li><i class="arrow right"></i><a href="https://qtcandor.com/"><b>QT Candor</b></a></li>
+                            <li><i class="arrow right"></i><a href="https://taimi.com/de"><b>Dating/Freunde</b></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div id="Info" class="Box col-md-2">
+                <ul class="security-list">
+                    <li><h5>Security</h5></li>
+                    <li><i class="arrow right"></i><a href="@Url.Action("Privacy", "Info")"><b>@Nav.LanguageHandler.loadDBValue("Security")</b></a></li>
+                    <li><i class="arrow right"></i><a href="@Url.Action("AGB", "Info")"><b>@Nav.LanguageHandler.loadDBValue("AGB")</b></a></li>
+                    <li><i class="arrow right"></i><a href="@Url.Action("Contact", "Info")"><b>@Nav.LanguageHandler.loadDBValue("Contact")</b></a></li>
+                    <li><i class="arrow right"></i><a href="@Url.Action("Feedback", "Info")"><b>@Nav.LanguageHandler.loadDBValue("Feedback")</b></a></li>
+                </ul>
+            </div>
+
+            <div id="Socials" class="Box col-md-2">
+                <ul class="socials-list">
+                    <li><h5>Socials</h5></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/Discord.svg" /><a href="https://discordapp.com/users/246277810274959360"><b>Discord</b></a></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/Steam.svg" /><a href="https://steamcommunity.com/profiles/76561198070637018"><b>Steam</b></a></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/WhatsApp.svg" /><a href="#"><b>Whatsapp</b></a></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/Telegram.svg" /><a href="#"><b>Telegram</b></a></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/YouTube.svg" /><a href="https://www.youtube.com/channel/UCOqQZVNPqLl1u-HU7OekxIw"><b>YouTube</b></a></li>
+                    <li><img class="SocialIcon" src="~/src/Icons/Social/Gmail.svg" /><a href="#"><b>Email</b></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>

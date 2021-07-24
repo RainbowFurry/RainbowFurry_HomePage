@@ -1,6 +1,6 @@
 ﻿@model  JasonJT_Web.Models.Contact
 
-<link rel="stylesheet" href="~/Style/JasonJT/Info/Style.less">
+<link rel="stylesheet" href="~/Style/JasonJT/Info/Contact.less">
 
 @{
     ViewBag.Title = "JasonJT - Contact";
@@ -34,18 +34,22 @@
 
         <div class="row pl-5 pr-5 pt-3">
             <!-- Email -->
-            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type="email", maxlength = "100", @class = "col justify-content-center" } })
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Gender -->
+            @Html.DropDownListFor(model => model.Gender, new SelectList(Enum.GetValues(typeof(JasonJT_Web.Models.Enum.Gender))), "Gender")
         </div>
 
         <div class="row pl-5 pr-5 pt-3">
             <!-- Sex -->
-            @Html.DropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(JasonJT_Web.Models.Sex))), "Sex")
+            @Html.DropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(JasonJT_Web.Models.Enum.Sex))), "Sex")
         </div>
 
         <div class="row pl-5 pr-5 pt-3">
             <!-- Text -->
-            @Html.TextAreaFor(model => model.Text, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Text), @type = "text", maxlength = "10000", @class = "col justify-content-center" }
-       })
+            @Html.TextAreaFor(model => model.Text, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Text), @type = "text", maxlength = "100", @class = "col justify-content-center" } })
         </div>
 
         <div class="row justify-content-center pt-3 pl-5 pr-5">

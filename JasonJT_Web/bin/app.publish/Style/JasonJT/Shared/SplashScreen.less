@@ -1,0 +1,48 @@
+﻿/*.divLoading {
+    position: absolute;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(93 93 93 / 37%);
+}
+
+.LoadingImage {
+    z-index: 9999;
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    height: 25%;
+    width: 25%;
+}*/
+
+.divLoading {
+    position: fixed;
+    top: 0;
+    z-index: 10000 !important;
+    opacity: 0.8;
+    height: 100%;
+    width: 100vw;
+    //background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: var(--BackgroundGradient);
+    animation: gradient 4s ease infinite;
+    -webkit-animation: gradient 4s infinite;
+    background-size: 100% 1100%; //
+}
+
+body {
+   // overflow: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}

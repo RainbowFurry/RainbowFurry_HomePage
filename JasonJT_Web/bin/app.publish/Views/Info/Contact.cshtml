@@ -1,0 +1,60 @@
+﻿@model  JasonJT_Web.Models.Contact
+
+<link rel="stylesheet" href="~/Style/JasonJT/Info/Contact.less">
+
+@{
+    ViewBag.Title = "JasonJT - Contact";
+}
+
+@*<h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <address>
+        One Microsoft Way<br />
+        Redmond, WA 98052-6399<br />
+        <abbr title="Phone">P:</abbr>
+        425.555.0100
+    </address>
+
+    <address>
+        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+    </address>*@
+
+<h1>Kontakt</h1>
+
+@using (Html.BeginForm())
+{
+
+    <div class="Contact">
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Name -->
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Name), @type = "text", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Email -->
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Gender -->
+            @Html.DropDownListFor(model => model.Gender, new SelectList(Enum.GetValues(typeof(JasonJT_Web.Models.Enum.Gender))), "Gender")
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Sex -->
+            @Html.DropDownListFor(model => model.Sex, new SelectList(Enum.GetValues(typeof(JasonJT_Web.Models.Enum.Sex))), "Sex")
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Text -->
+            @Html.TextAreaFor(model => model.Text, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Text), @type = "text", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pt-3 pl-5 pr-5">
+            <input class="col" type="submit" value="Senden">
+        </div>
+    </div>
+
+}

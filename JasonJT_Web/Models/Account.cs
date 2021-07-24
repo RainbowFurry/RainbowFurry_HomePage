@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using JasonJT_Web.Models.Enum;
+using MongoDB.Bson.Serialization.Attributes;
 using System.ComponentModel.DataAnnotations;
 
 namespace JasonJT_Web.Models
@@ -29,7 +30,7 @@ namespace JasonJT_Web.Models
         public string ProfilePicture { get; set; }//
         public string ProfileBanner { get; set; }//
         public Gender Gender { get; set; }//
-        public Sexs Sex { get; set; }//
+        public Sex Sex { get; set; }//
         public Roles Role { get; set; }
 
         /*
@@ -39,35 +40,6 @@ namespace JasonJT_Web.Models
     PostCode
          */
 
-    }
-
-    public enum Roles
-    {
-        None,
-        User,
-        Owner,
-        Admin,
-        Moderator,
-        Supporter
-    }
-
-    public enum Gender
-    {
-        Unset,
-        male,
-        female,
-        divers
-    }
-
-    public enum Sexs
-    {
-        Unset,
-        Gay,
-        Bi,
-        Hetero,
-        Transexual,
-        Pansexual,
-        Unknown
     }
 
 }

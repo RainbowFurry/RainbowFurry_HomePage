@@ -1,37 +1,36 @@
 ﻿Today:
 
-//// alles soweit responsive...
-//// DBs... - alles in db - gescheite texte ohne fehler...
+cookie request + adden/managen - custom + bootstrap - wenn cookies nicht angenommen passiert nix da keine rechte?
+git upload + Server -> Splash, (Feedback, Contact), ...
+1. Texte - de/en
+2. alles soweit responsive...
+3. Tests
+4. Style
+5. update nav options + cookie + handy
+6. Geht alles...
 
-Main Index Page...
-agb etc.
-error
-info
-
+//gleichberechtigungs seite... ist nicht jeder gleichberechtigt? wiso kempfen alle für sich oder ein ziel...
+//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung + Alle weiteren verlinken u listen
+definition 3geschl.
+fragen nicht stellen... page?
+//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
 profile page... - genauere beschreibung - familien mensch etc.?
-problem bei tests, dass meist klische...
-
-schicken:
-mama?
-k?
-q...
-dimar etc.?
-
-offene sachen fertig
-reupload
-nachricht q... + dimar + k.
 
 --------
 Morgen:
 
-feedback - wird auf seite auch angezeigt -> Name, text, sterne, sex, alter? + file local
+login register Account... style
+error pages... style
+copy right... 2x text + style
+info - all pages style + content
+Main Index Page... content + style
 
-Eigenfindung - paar fragen vor test, dass gedanken machen und dann vlt klarer... -> eichtung videos Q...?
+popup am start mit wilkommen, danke und test...
 
-weitere inhalte / style von Q/taimi
+//// DBs... - alles in db - gescheite texte ohne fehler...
 
-update nav options + cookie + handy
-cookie request + adden/managen - custom + bootstrap
+ToDo..
+nachricht q... + dimar + k.
 
 -------------------------------
 Zusatz:
@@ -39,22 +38,16 @@ Zusatz:
 Mein Profil eigenes bild? 
 
 //SLOGAN - Sei dir selbst loyal und leb dein Leben wie du es gerne möchtest!
-//info dass ich furrys mag... 
-//entäuschungen gewohnt, tut trotzdem jedes mal wieder weh
 
 //was kannst du von mir erwarten? - offenheit, ehrlichkeit, nettichkeit, hilfsbereitschaft, etc...
 Kack Leben(das steht dir im weg): verbergen, verstellen, verleugnen, verbiegen, verheimlichen, verschweigen,... VS Besseres Leben: ...
-
 webseite: ich wusste wie ich ticke, für mich nicht wichtig..., irgent wann schon..., kp gedanken immer mal wieder,
+//war mir auch nicht sicher, auch wenn offensichtlich, wenn schon länger wie bei mir 1klasse dann...
+//story k. wenn zulange dann unglücklich...
 
 Playlists?
 furrys?
 socials: fb?
-
-login register
-error pages
-copy right... 2x
-popup am start mit wilkommen, danke und test...
 
 ------------------------------------------------------------
 Gay Test: 
@@ -65,24 +58,17 @@ jeh nach alter anderer testaufbau - ab 16 u darunter...
 test ergebnisse werden local in txt geschrieben mit 2-3 infos... - bekommt er aber auch gesagt dass ich nur info ob gay etc + alter
 
 FAQ? page
-Schwule sowohl M/W...
 https://www.vice.com/de/article/9bm7jd/woran-schwule-andere-schwule-erkennen-523
 
 -----------------
 -----------------
-Test M/W:
-eher arm halten oder arm liegen?
+Weiteres:
 
 https://de.wikihow.com/Herausfinden-ob-jemand-schwul-ist
 https://www.gq-magazin.de/beziehung-sex/artikel/drei-fragen-die-sie-einem-schwulen-mann-nie-stellen-sollten
 https://www.lilli.ch/selbsterkenntnis_schwul_lesbisch_bi_was_bin_ich
-//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung
-definition 3geschl.
-fragen nicht stellen... page?
-//war mir auch nicht sicher, auch wenn offensichtlich, wenn schon länger wie bei mir 1klasse dann...
-//story k. wenn zulange dann unglücklich...
-//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
 
+https://www.iboys.at/magazin/tomboy-1128.html
 -----------------
 -----------------
 
@@ -109,6 +95,26 @@ fragen nicht stellen... page?
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+schicken: mama? k? q? dimar?
+------------
+Glernt:
+Login
+responsive
+bissle css
+modul system - zero
+
+----
 Gesprächs text ich mum:
 sohn gebeten zu reden
 will nicht dass er ärger bekommt
@@ -135,7 +141,7 @@ keine fehler
 responsive - auch handy?
 
 ----------
-eventuell alles auf zero neu anwenden...
+eventuell alles auf zero neu anwenden...!!!
 Templates erstellen hier oder zero oder kp...:
 
 Webseite taimi? - App?

@@ -14,7 +14,7 @@
         <div class="col-md-10">
             <p class="InfoText">
                 Diese Seite befindet sich noch im Aufbau und wird regelmäßig erneuert.<br />
-                Der Login/Register und die Tests funktionieren noch nicht.<br />
+                Die Tests funktionieren noch nicht.<br />
                 Die Texte und Inhalte sind auch erst mal provisorisch und werden noch angepasst.<br />
                 Über das Aussehen und das Verhalten auf verschiedenen Geräten reden wir mal nicht darüber. Step by Step.<br />
                 Rechtschreibung ist wie man merkt auch nicht so meine Stärke...
@@ -22,6 +22,44 @@
         </div>
         <div class="col-md-1">
             <span class="closebtn col-md-1" onclick="document.getElementsByClassName('InfoBox')[0].style.display='none';">&times;</span>
+        </div>
+    </div>
+</div>
+
+<div class="InfoBox Info container">
+    <div class="row">
+        <div class="col-md-1">
+            <img src="~/src/Icons/Icons/Settings.svg" class="InfoIcon" />
+        </div>
+        <div class="col-md-10">
+            <p class="InfoText">
+                Es ist nun möglich einen Account zu erstellen. Worauf wartest du?<br />
+                <a href="@Url.Action("Registration", "Account")">Registriere dich jetzt</a>
+                <br /><br />
+                Auch das Kontaktformular ist nun voll funktionsfähig.
+                Das Feedbackformular ist funktionsfähig, doch noch in der Testphase.
+            </p>
+        </div>
+        <div class="col-md-1">
+            <span class="closebtn col-md-1" onclick="document.getElementsByClassName('InfoBox')[1].style.display='none';">&times;</span>
+        </div>
+    </div>
+</div>
+
+<div class="InfoBox Info container">
+    <div class="row">
+        <div class="col-md-1">
+            <img src="~/src/Icons/Icons/Settings.svg" class="InfoIcon" />
+        </div>
+        <div class="col-md-10">
+            <p class="InfoText">
+              Solltest du auf der Seite einen Fehler finden, Verbesserungsvorschläge haben oder weitere Anreize,
+              dann würde ich mich freuen, wenn du es mir unter Kontakt mitteilen würdest,
+              damit ich den Fehler schnellstmöglichst beheben kann oder die Seite verbessern kann.
+            </p>
+        </div>
+        <div class="col-md-1">
+            <span class="closebtn col-md-1" onclick="document.getElementsByClassName('InfoBox')[2].style.display='none';">&times;</span>
         </div>
     </div>
 </div>

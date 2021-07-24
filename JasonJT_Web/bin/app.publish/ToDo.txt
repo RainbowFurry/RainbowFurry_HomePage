@@ -1,0 +1,148 @@
+﻿Today:
+
+cookie request + adden/managen - custom + bootstrap - wenn cookies nicht angenommen passiert nix da keine rechte?
+git upload + Server -> Splash, (Feedback, Contact), ...
+1. Texte - de/en
+2. alles soweit responsive...
+3. Tests
+4. Style
+5. update nav options + cookie + handy
+6. Geht alles...
+
+//gleichberechtigungs seite... ist nicht jeder gleichberechtigt? wiso kempfen alle für sich oder ein ziel...
+//diese sexuallitäten gibt es: Gay, bi, lesbisch, trans, pansexuell, etc... Erleuterung + Alle weiteren verlinken u listen
+definition 3geschl.
+fragen nicht stellen... page?
+//fakten: schwule immer nett, hilfsbereit, beste freund, hängt eher mit mädels ab, (feminines auftreten), ...
+profile page... - genauere beschreibung - familien mensch etc.?
+
+--------
+Morgen:
+
+login register Account... style
+error pages... style
+copy right... 2x text + style
+info - all pages style + content
+Main Index Page... content + style
+
+popup am start mit wilkommen, danke und test...
+
+//// DBs... - alles in db - gescheite texte ohne fehler...
+
+ToDo..
+nachricht q... + dimar + k.
+
+-------------------------------
+Zusatz:
+
+Mein Profil eigenes bild? 
+
+//SLOGAN - Sei dir selbst loyal und leb dein Leben wie du es gerne möchtest!
+
+//was kannst du von mir erwarten? - offenheit, ehrlichkeit, nettichkeit, hilfsbereitschaft, etc...
+Kack Leben(das steht dir im weg): verbergen, verstellen, verleugnen, verbiegen, verheimlichen, verschweigen,... VS Besseres Leben: ...
+webseite: ich wusste wie ich ticke, für mich nicht wichtig..., irgent wann schon..., kp gedanken immer mal wieder,
+//war mir auch nicht sicher, auch wenn offensichtlich, wenn schon länger wie bei mir 1klasse dann...
+//story k. wenn zulange dann unglücklich...
+
+Playlists?
+furrys?
+socials: fb?
+
+------------------------------------------------------------
+Gay Test: 
+
+2 systeme
+color marker wie ergebniss der fragen?
+jeh nach alter anderer testaufbau - ab 16 u darunter...
+test ergebnisse werden local in txt geschrieben mit 2-3 infos... - bekommt er aber auch gesagt dass ich nur info ob gay etc + alter
+
+FAQ? page
+https://www.vice.com/de/article/9bm7jd/woran-schwule-andere-schwule-erkennen-523
+
+-----------------
+-----------------
+Weiteres:
+
+https://de.wikihow.com/Herausfinden-ob-jemand-schwul-ist
+https://www.gq-magazin.de/beziehung-sex/artikel/drei-fragen-die-sie-einem-schwulen-mann-nie-stellen-sollten
+https://www.lilli.ch/selbsterkenntnis_schwul_lesbisch_bi_was_bin_ich
+
+https://www.iboys.at/magazin/tomboy-1128.html
+-----------------
+-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+schicken: mama? k? q? dimar?
+------------
+Glernt:
+Login
+responsive
+bissle css
+modul system - zero
+
+----
+Gesprächs text ich mum:
+sohn gebeten zu reden
+will nicht dass er ärger bekommt
+er traut sich nicht da angst, etc...
+wer bin ich wiso anruf
+frag eifach bin selber schwul...
+
+--------------
+
+shortcuts...
+hover text...
+context menu - rechts klick...
+logs?
+
+page leafe message warning...
+
+alle page title - res file page titles...
+
+animationen
+
+anderer splash screen? - screen nur wenn wirklich läd...
+
+keine fehler
+responsive - auch handy?
+
+----------
+eventuell alles auf zero neu anwenden...!!!
+Templates erstellen hier oder zero oder kp...:
+
+Webseite taimi? - App?
+Danach app mal erstellen?

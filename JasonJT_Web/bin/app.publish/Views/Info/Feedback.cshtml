@@ -1,0 +1,116 @@
+﻿@model  JasonJT_Web.Models.Feedback
+
+<link rel="stylesheet" href="~/Style/JasonJT/Info/Feedback.less">
+
+@{
+    ViewBag.Title = "JasonJT - Feedback";
+}
+
+<h2>Feedback</h2>
+
+<div class="Conntent">
+    <p>
+        Dein Feedback ist mir wichtig und ich würde mich freuen, wenn du dir 5 Minuten
+        deiner Zeit nimmst und mir mitteilen würders, was dir an der Seite
+        gefällt und was du denkst, was man verbessern kann.
+        Solltest du mit mir Kontakt gehabt haben, würde ich mich
+        freuen, wenn du unser Gespräch/Chat bewerten würdest.
+        Nur auf diese weiße kann ich mich verbessern.
+        Ein Anliegen hierbei, wäre mir aber, dass du sachlich bleibst und ehrlich.
+        Es bringt keinem was einfach irgend etwas zu schreiben, vorallem nicht,
+        wenn ich schon extra keinen Schutz oder Filter Mechanissmuss einbaue.
+    </p>
+</div>
+
+
+@using (Html.BeginForm())
+{
+
+    <div class="Feedback">
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Name -->
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Name), @type = "text", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <!--<div class="row pl-5 pr-5 pt-3">
+            <!-- Age? -->
+        <!--@*@Html.EditorFor(model => model.Email, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Email), @type = "email", maxlength = "100", @class = "col justify-content-center" } })*@
+        </div>-->
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Rating -->
+            @Html.EditorFor(model => model.Rating, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Rating), @type = "rating", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row pl-5 pr-5 pt-3">
+            <!-- Text -->
+            @Html.TextAreaFor(model => model.Text, new { htmlAttributes = new { placeholder = @Html.NameFor(model => model.Text), @type = "text", maxlength = "100", @class = "col justify-content-center" } })
+        </div>
+
+        <div class="row justify-content-center pt-3 pl-5 pr-5">
+            <input class="col" type="submit" value="Senden">
+        </div>
+    </div>
+
+}
+
+<div class="FeedbackList container pt-5">
+
+    @{
+        var path = Server.MapPath("~/Data/Feedback/") + "Feedback.txt";
+        string[] array = new string[] { };
+
+        if (File.Exists(path))
+        {
+            //doch foreach line... und dann behandeln...? sonst nicht multiline...
+            //if loggedin die daten...
+
+            array = File.ReadAllText(path).Split('-');
+
+            foreach (string content in array)
+            {
+                if (content != "" && content != null)
+                {
+                    var Content = content;
+                    if (content.StartsWith("\n"))
+                    {
+                        System.Text.StringBuilder sb = new System.Text.StringBuilder(Content);
+                        sb[0] = ' ';
+                        Content = sb.ToString();
+                    }
+                    string[] ContentArray = Content.Split('\n');
+                    var Name = ContentArray[0].Replace("Name:", "");
+                    var Rating = ContentArray[1].Replace("Rating:", "");
+                    var Date = ContentArray[2].Replace("Date:", "");
+                    var Text = "";
+
+                    if (ContentArray.Length > 3)
+                    {
+                        for (int i = 3; i < ContentArray.Length-1; i++)
+                        {
+                            if (ContentArray[i] != "" || ContentArray[i] != null)
+                            {
+                                Text += ContentArray[i] + "<br />";
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Text = ContentArray[3].Replace("Text:", "");
+                    }
+
+                    Text = Text.Replace("Text:", "");
+
+                    <div class="UserFeedback pt-3">
+                        <p><b>Name: </b>@Name</p>
+                        <p><b>Rating: </b>@Rating</p>
+                        <p><b>Text: </b>@Html.Raw(Text)</p>
+                        <p><b>Date: </b>@Date</p>
+                    </div>
+                }
+            }
+
+        }
+    }
+
+</div>
